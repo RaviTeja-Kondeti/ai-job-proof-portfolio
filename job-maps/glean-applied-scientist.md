@@ -17,10 +17,10 @@ Each substantive candidate-evaluating line, including the company and AI-workflo
 | Maintain an A/B platform from stakeholder feedback | Can new features be adopted safely by teams? | **Built, narrow component:** [auditable validity checks](../projects/experiment-audit/); platform service and stakeholder feedback remain planned. |
 | Code or select vendors for scalable, usable methods | Can a build-versus-buy choice serve non-specialists? | **Planned:** vendor assessment, API prototype, and usability study. |
 | Evaluate document/URL upload use cases end to end | Can generated eval data, criteria, and interpretation be defended? | **Built, partial:** [synthetic LLM evaluation](../projects/llm-evaluation/); **planned:** upload-to-answer evaluation. |
-| Decompose end-to-end evals into skills | Can failure location be identified, not just final score? | **Planned:** task-level error attribution harness. |
+| Decompose end-to-end evals into skills | Can failure location be identified, not just final score? | **Built, synthetic agent slice:** [trajectory-level error report](../projects/agent-trajectory-eval/); broader content tasks remain planned. |
 | Evaluate content summarization, analysis, and generation | Are factuality and utility measured separately? | **Built, partial:** [grounding checks](../projects/llm-evaluation/); **planned:** content-task rubric. |
-| Evaluate multi-step reasoning and strategy | Do intermediate decisions support the final result? | **Planned:** trace-based multi-step reasoning benchmark. |
-| Evaluate tool choice and use | Are incorrect and unnecessary calls penalized? | **Planned:** tool-selection and execution benchmark. |
+| Evaluate multi-step reasoning and strategy | Do intermediate decisions support the final result? | **Built, partial:** [multi-step tool trace evaluation](../projects/agent-trajectory-eval/); reasoning quality remains planned. |
+| Evaluate tool choice and use | Are incorrect and unnecessary calls penalized? | **Built, synthetic:** [tool choice, argument, and policy checks](../projects/agent-trajectory-eval/); real tool replay remains planned. |
 | Evaluate coding and system design | Can success be checked beyond plausibility? | **Planned:** executable coding tests and design rubric. |
 | Own query-intent classification best practices | Are labels and error slices trustworthy? | **Built, partial:** [classifier diagnostic gate](../projects/classifier-evaluation/); **planned:** intent model and label audit. |
 | Handle stochastic LLM results statistically | Are conclusions stable across samples and seeds? | **Built, supporting:** [statistical experiment audit](../projects/experiment-audit/) for non-LLM outcomes; repeated-run LLM evaluation remains planned. |

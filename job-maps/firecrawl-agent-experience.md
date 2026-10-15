@@ -8,7 +8,7 @@ Each distinct candidate-evaluating statement, including company context, values,
 |---|---|---|
 | Agents need to discover Firecrawl | Can tool discovery be measured from an agent's perspective? | **Planned:** agent tool-discovery benchmark across descriptions. |
 | Agents need to understand capabilities | Can an agent select the right operation from documentation? | **Planned:** documentation comprehension task set. |
-| Agents need to use the product correctly | Does an agent complete tasks, not just call the API? | **Planned:** end-to-end agent task-success evaluation. |
+| Agents need to use the product correctly | Does an agent complete tasks, not just call the API? | **Built, synthetic method:** [agent trajectory and final-state evaluator](../projects/agent-trajectory-eval/); Firecrawl tool integration remains planned. |
 | Product-minded engineer with experimental and data instincts | Can a hypothesis become a shipped improvement? | **Planned:** agent-facing feature experiment and release. |
 | Fast shipping with rigorous A/B tests | Are experiments valid under a short cadence? | **Built, synthetic component:** [experiment audit](../projects/experiment-audit/); **planned:** live agent-surface experiment. |
 | Agent audience rather than human audience | Can success be defined as agent behavior? | **Planned:** agent-specific funnel and failure taxonomy. |

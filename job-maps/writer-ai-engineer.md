@@ -12,7 +12,7 @@ Each substantive candidate-facing line is a separate test and small proof projec
 | Agents grounded in company data | Are outputs supported by source records? | **Built, narrow:** [grounding evaluation](../projects/llm-evaluation/); **planned:** permission-aware retrieval agent. |
 | Enterprise-grade LLMs and end-to-end platform | Can a model be swapped without losing service behavior? | **Planned:** model-agnostic agent service contract. |
 | Move fast and operate AI at scale | Is there a repeatable release process? | **Planned:** agent deployment pipeline and runbook. |
-| Production AI affects performance | Can workflow quality be measured? | **Built, partial:** [LLM output evaluation](../projects/llm-evaluation/); **planned:** task success metric. |
+| Production AI affects performance | Can workflow quality be measured? | **Built, partial:** [LLM output evaluation](../projects/llm-evaluation/) and [agent trajectory score](../projects/agent-trajectory-eval/); real user outcomes remain planned. |
 | Production AI affects scalability | Does throughput hold with concurrent users? | **Planned:** load test with queue and p95 latency. |
 | Ethical alignment matters | Can harmful or unsupported outputs be caught? | **Planned:** risk taxonomy and safety evaluation suite. |
 | Architect, develop, deploy scalable AI applications | Can one service run, be monitored, and rolled back? | **Planned:** deployed agent reference application. |
@@ -22,7 +22,7 @@ Each substantive candidate-facing line is a separate test and small proof projec
 | Evaluate emerging AI tools/frameworks | Are fixed tasks and fair criteria used? | **Built, toy:** [benchmark scaffold](../projects/provider-benchmarks/); **planned:** real tool evaluation. |
 | Detect bias | Are weak groups visible before release? | **Built, toy:** [per-slice classifier gate](../projects/classifier-evaluation/); **planned:** agent bias study. |
 | Explainability | Can decisions point to evidence and uncertainty? | **Planned:** agent trace and rationale viewer. |
-| Safety alignment | Do tests block prompt attacks and unsafe tool use? | **Built, toy:** [prompt-injection screening](../projects/prompt-injection-screen/); **planned:** tool-use safety gate. |
+| Safety alignment | Do tests block prompt attacks and unsafe tool use? | **Built, toy:** [prompt-injection screening](../projects/prompt-injection-screen/) and [unauthorized-tool detection](../projects/agent-trajectory-eval/); runtime enforcement remains planned. |
 | Five-plus years of production AI/ML work | Are dates and shipped systems verifiable? | **Candidate verification:** actual resume and examples; projects cannot prove tenure. |
 | Python and PyTorch/TensorFlow/JAX | Can the candidate train and ship a model? | **Built, limited Python:** [scoring code](../projects/classifier-evaluation/); **planned:** framework training project. |
 | ML, deep learning, NLP, LLM foundations | Can model behavior and errors be reasoned about? | **Planned:** LLM failure-analysis case study. |
