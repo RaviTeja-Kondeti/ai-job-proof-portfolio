@@ -1,0 +1,12 @@
+{
+  "budget": 10,
+  "query_weights": {"q1": 3, "q2": 2, "q3": 1, "q4": 1},
+  "pages": [
+    {"id": "p1", "predicted_value": 2.0, "freshness": 0.9, "cost": 4, "duplicate_cluster": "a", "true_query_coverage": ["q1"]},
+    {"id": "p2", "predicted_value": 1.9, "freshness": 0.6, "cost": 4, "duplicate_cluster": "a", "true_query_coverage": ["q1"]},
+    {"id": "p3", "predicted_value": 1.4, "freshness": 1.0, "cost": 3, "duplicate_cluster": "b", "true_query_coverage": ["q2"]},
+    {"id": "p4", "predicted_value": 0.9, "freshness": 1.0, "cost": 2, "duplicate_cluster": "c", "true_query_coverage": ["q3"]},
+    {"id": "p5", "predicted_value": 0.4, "freshness": 1.0, "cost": 1, "duplicate_cluster": "d", "true_query_coverage": ["q4"]},
+    {"id": "p6", "predicted_value": 0.3, "freshness": 0.2, "cost": 2, "duplicate_cluster": "e", "true_query_coverage": []}
+  ]
+}

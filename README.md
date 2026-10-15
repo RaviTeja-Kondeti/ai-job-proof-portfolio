@@ -19,10 +19,11 @@ This repository turns job-post statements into small, inspectable projects. It u
 - [Replit — Data Scientist, Growth](https://jobs.ashbyhq.com/replit/1066b974-3cd8-42cf-a11c-a4217c06f70f): [line-by-line evidence map](job-maps/replit-growth-data-scientist.md).
 - [Luma — Software Engineer, Inference](https://jobs.ashbyhq.com/lumaai/c4b9ff5f-40b2-40d4-9f6f-8b7aad9b8860): [line-by-line evidence map](job-maps/luma-inference.md).
 - [Suno — Senior/Staff MLE, Content Discovery](https://jobs.ashbyhq.com/suno/e94b6a03-6315-45c2-a439-51630af15f05): [line-by-line evidence map](job-maps/suno-content-discovery.md).
+- [Exa — Research Engineer, Index Intelligence](https://jobs.ashbyhq.com/exa/67310301-d019-4290-9c79-e8d6e70d5d50): [line-by-line evidence map](job-maps/exa-index-intelligence.md).
 - [30-day, salary-filtered AI-first posting queue](job-maps/index.md).
 - [Eight-week proof plan](ROADMAP.md) for turning the highest-value gaps into linked evidence.
 - [Audit of existing public GitHub work](EXISTING_WORK_AUDIT.md), with fixed-commit links and evidence limits.
-- Built proof: [budget allocation](projects/budget-allocation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [conversion and value forecasting](projects/conversion-value-forecast/), [experiment audit](projects/experiment-audit/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [music discovery evaluation](projects/music-discovery-eval/), [public-rating temporal evaluation](projects/movielens-temporal-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), and [post-training data checks](projects/post-training-data/).
+- Built proof: [budget allocation](projects/budget-allocation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [conversion and value forecasting](projects/conversion-value-forecast/), [experiment audit](projects/experiment-audit/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [index selection](projects/index-selection-eval/), [music discovery evaluation](projects/music-discovery-eval/), [public-rating temporal evaluation](projects/movielens-temporal-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), and [post-training data checks](projects/post-training-data/).
 - The map labels unbuilt projects as **planned**. A plan is never presented as a completed proof link.
 
 ## Reproduce the proof
@@ -47,6 +48,7 @@ python3 -m unittest discover -s projects/search-ranking-eval -p 'test_*.py'
 python3 -m unittest discover -s projects/music-discovery-eval -p 'test_*.py'
 python3 -m unittest discover -s projects/conversion-value-forecast -p 'test_*.py'
 python3 -m unittest discover -s projects/movielens-temporal-eval -p 'test_*.py'
+python3 -m unittest discover -s projects/index-selection-eval -p 'test_*.py'
 python3 projects/budget-allocation/allocate.py
 python3 projects/spend-pacing/pacing.py
 python3 projects/incrementality/experiment.py
@@ -61,6 +63,7 @@ python3 projects/b2b-metrics-layer/metrics.py
 python3 projects/search-ranking-eval/evaluate.py
 python3 projects/music-discovery-eval/evaluate.py
 python3 projects/conversion-value-forecast/forecast.py
+python3 projects/index-selection-eval/index_policy.py
 python3 projects/agent-trajectory-eval/evaluate.py
 ```
 
