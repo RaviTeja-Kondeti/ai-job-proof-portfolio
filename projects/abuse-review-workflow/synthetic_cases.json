@@ -1,0 +1,14 @@
+{
+  "cases": [
+    {"id": "a1", "account": "acct_1", "score": 0.95, "severity": 5, "signals": ["unusual payment velocity", "request burst"]},
+    {"id": "a2", "account": "acct_2", "score": 0.92, "severity": 1, "signals": ["high volume enterprise use"]},
+    {"id": "a3", "account": "acct_3", "score": 0.88, "severity": 4, "signals": ["credential sharing", "request burst"]},
+    {"id": "a4", "account": "acct_4", "score": 0.80, "severity": 5, "signals": ["new payment instrument", "many linked accounts"]},
+    {"id": "a5", "account": "acct_5", "score": 0.79, "severity": 3, "signals": ["unusual signup location"]},
+    {"id": "a6", "account": "acct_6", "score": 0.71, "severity": 2, "signals": ["repeated policy flags"]},
+    {"id": "a7", "account": "acct_7", "score": 0.25, "severity": 5, "signals": ["unfamiliar pattern"]},
+    {"id": "a8", "account": "acct_8", "score": 0.20, "severity": 1, "signals": ["normal use"]}
+  ],
+  "truth": {"a1": true, "a2": false, "a3": true, "a4": true, "a5": false, "a6": true, "a7": true, "a8": false},
+  "human_decisions": {"a1": "restrict", "a2": "clear", "a3": "restrict", "a4": "restrict", "a5": "clear", "a6": "restrict", "a7": "restrict", "a8": "clear"}
+}

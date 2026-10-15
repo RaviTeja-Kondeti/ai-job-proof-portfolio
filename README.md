@@ -22,10 +22,11 @@ This repository turns job-post statements into small, inspectable projects. It u
 - [Exa — Research Engineer, Index Intelligence](https://jobs.ashbyhq.com/exa/67310301-d019-4290-9c79-e8d6e70d5d50): [line-by-line evidence map](job-maps/exa-index-intelligence.md).
 - [Exa — Research Engineer, Content Understanding](https://jobs.ashbyhq.com/exa/508f3b2e-980b-41e9-ae02-26c72ce6b775): [line-by-line evidence map](job-maps/exa-content-understanding.md).
 - [Cartesia — Research Engineer, Data Infrastructure](https://jobs.ashbyhq.com/cartesia/6ca9b352-6a7b-42a3-a7c4-8f071712db90): [line-by-line evidence map](job-maps/cartesia-data-infrastructure.md).
+- [OpenRouter — Software Engineer, Trust & Safety](https://jobs.ashbyhq.com/openrouter/cd5340a1-e787-4916-abb8-a08ab1bb229b): [line-by-line evidence map](job-maps/openrouter-trust-safety.md).
 - [30-day, salary-filtered AI-first posting queue](job-maps/index.md).
 - [Eight-week proof plan](ROADMAP.md) for turning the highest-value gaps into linked evidence.
 - [Audit of existing public GitHub work](EXISTING_WORK_AUDIT.md), with fixed-commit links and evidence limits.
-- Built proof: [budget allocation](projects/budget-allocation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [conversion and value forecasting](projects/conversion-value-forecast/), [experiment audit](projects/experiment-audit/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [index selection](projects/index-selection-eval/), [music discovery evaluation](projects/music-discovery-eval/), [public-rating temporal evaluation](projects/movielens-temporal-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), and [post-training data checks](projects/post-training-data/).
+- Built proof: [budget allocation](projects/budget-allocation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [conversion and value forecasting](projects/conversion-value-forecast/), [experiment audit](projects/experiment-audit/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [index selection](projects/index-selection-eval/), [music discovery evaluation](projects/music-discovery-eval/), [public-rating temporal evaluation](projects/movielens-temporal-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [abuse review workflow](projects/abuse-review-workflow/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), and [post-training data checks](projects/post-training-data/).
 - The map labels unbuilt projects as **planned**. A plan is never presented as a completed proof link.
 
 ## Reproduce the proof
@@ -51,6 +52,7 @@ python3 -m unittest discover -s projects/music-discovery-eval -p 'test_*.py'
 python3 -m unittest discover -s projects/conversion-value-forecast -p 'test_*.py'
 python3 -m unittest discover -s projects/movielens-temporal-eval -p 'test_*.py'
 python3 -m unittest discover -s projects/index-selection-eval -p 'test_*.py'
+python3 -m unittest discover -s projects/abuse-review-workflow -p 'test_*.py'
 python3 projects/budget-allocation/allocate.py
 python3 projects/spend-pacing/pacing.py
 python3 projects/incrementality/experiment.py
@@ -66,6 +68,7 @@ python3 projects/search-ranking-eval/evaluate.py
 python3 projects/music-discovery-eval/evaluate.py
 python3 projects/conversion-value-forecast/forecast.py
 python3 projects/index-selection-eval/index_policy.py
+python3 projects/abuse-review-workflow/workflow.py
 python3 projects/agent-trajectory-eval/evaluate.py
 ```
 

@@ -1,0 +1,7 @@
+# Project 19: human-reviewed abuse triage
+
+**Posting test:** [OpenRouter Software Engineer, Trust & Safety](https://jobs.ashbyhq.com/openrouter/cd5340a1-e787-4916-abb8-a08ab1bb229b) asks for abuse detection, enforcement, reviewer tools, risk monitoring, and a guardrail against acting on the wrong account. Can a bounded review queue improve triage without allowing an ML score to restrict an account by itself?
+
+Run `python3 workflow.py` and `python3 -m unittest test_workflow.py` here. Two queue policies receive the same invented account signals and a capacity of three reviews. A separate **synthetic** ground-truth table evaluates review precision and recall; it is not read by either queue policy. A reviewer must explicitly decide before an account restriction is recorded. The ledger derives the account from the queued case, rejects unqueued enforcement, makes identical retries idempotent, and rejects conflicting retries.
+
+The severity-weighted queue catches one more abusive case than score-only triage in this fixture, yet it still misses two cases, including a low-score novel pattern. Its release gate **fails** because recall is below 80%. This is a constructed method demonstration, not evidence of real fraud detection or human-review quality. Real deployment needs calibrated scores, unbiased labels, reviewer disagreement, appeal/rollback paths, sensitive-data controls, SQL/event processing, latency and operational monitoring, and red-team adaptation.
