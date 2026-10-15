@@ -11,7 +11,7 @@ Among the closest-overlap roles, only the listed OpenAI MLE Growth, MLE Implicit
 | First or last published | Company and direct posting | US annual base | Qualification to verify | Evidence map |
 |---|---|---:|---|---|
 | Oct 13 | OpenAI — [MLE, Implicit Signals](https://jobs.ashbyhq.com/openai/a01fc9ed-de08-4326-9206-4ee3f08000dc) | $381k–$510k | Production classifiers, calibration, model serving | [Mapped; evaluation proof](openai-implicit-signals.md) |
-| Oct 13 | OpenAI — [MLE, Growth](https://openai.com/careers/machine-learning-engineer-growth-san-francisco/) | $381k–$423k | Optimization, control, causal growth measurement | [Mapped; 3 initial proofs](openai-growth.md) |
+| Oct 13 | OpenAI — [MLE, Growth](https://openai.com/careers/machine-learning-engineer-growth-san-francisco/) | $381k–$423k | Optimization, control, causal growth measurement | [Mapped; partial algorithm, forecast, and service proofs](openai-growth.md) |
 | Sep 29 | Firecrawl — [Research Engineer, Benchmarks](https://jobs.ashbyhq.com/firecrawl/90f88e13-7d5f-43e2-a3fc-9e16d836b71c) | $250k–$290k in SF | 4+ years and **previously shipped** benchmark/evaluation work | [Mapped; toy prototype only](firecrawl-benchmarks.md) |
 | Oct 5 | Glean — [Senior/Staff Applied Scientist](https://job-boards.greenhouse.io/gleanwork/jobs/4740092005) | $180k–$330k | Master's plus 5+ years or PhD plus 3+; degree unverified | [Mapped; several partial proofs](glean-applied-scientist.md) |
 | Sep 30 | OpenAI — [Data Scientist, B2B Strategy & Intelligence](https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5) | $347k–$510k | Senior-level B2B/GTM analytics and executive decisions | [Mapped; history unverified](openai-b2b-data-scientist.md) |

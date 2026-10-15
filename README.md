@@ -22,7 +22,7 @@ This repository turns job-post statements into small, inspectable projects. It u
 - [30-day, salary-filtered AI-first posting queue](job-maps/index.md).
 - [Eight-week proof plan](ROADMAP.md) for turning the highest-value gaps into linked evidence.
 - [Audit of existing public GitHub work](EXISTING_WORK_AUDIT.md), with fixed-commit links and evidence limits.
-- Built proof: [budget allocation](projects/budget-allocation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [experiment audit](projects/experiment-audit/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [music discovery evaluation](projects/music-discovery-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), and [post-training data checks](projects/post-training-data/).
+- Built proof: [budget allocation](projects/budget-allocation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [conversion and value forecasting](projects/conversion-value-forecast/), [experiment audit](projects/experiment-audit/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [music discovery evaluation](projects/music-discovery-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), and [post-training data checks](projects/post-training-data/).
 - The map labels unbuilt projects as **planned**. A plan is never presented as a completed proof link.
 
 ## Reproduce the proof
@@ -45,6 +45,7 @@ python3 -m unittest discover -s projects/agent-trajectory-eval -p 'test_*.py'
 python3 -m unittest discover -s projects/growth-decision-service -p 'test_*.py'
 python3 -m unittest discover -s projects/search-ranking-eval -p 'test_*.py'
 python3 -m unittest discover -s projects/music-discovery-eval -p 'test_*.py'
+python3 -m unittest discover -s projects/conversion-value-forecast -p 'test_*.py'
 python3 projects/budget-allocation/allocate.py
 python3 projects/spend-pacing/pacing.py
 python3 projects/incrementality/experiment.py
@@ -58,6 +59,7 @@ python3 projects/experiment-audit/audit.py
 python3 projects/b2b-metrics-layer/metrics.py
 python3 projects/search-ranking-eval/evaluate.py
 python3 projects/music-discovery-eval/evaluate.py
+python3 projects/conversion-value-forecast/forecast.py
 python3 projects/agent-trajectory-eval/evaluate.py
 ```
 
