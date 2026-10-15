@@ -4,7 +4,7 @@ This inventory checks **only whether a mapped test row links to an inspectable p
 
 Salary/date-screened role rows: **40**. Roles with a line map: **28**. Roles without a line map: **12**. Current mapped roles audited here: **28**.
 
-Mapped test rows: **1012**. Rows with an artifact link: **268**. Rows without one: **744**. Rows explicitly requiring candidate-supplied history or credentials: **83** (may overlap either link category).
+Mapped test rows: **1012**. Rows with an artifact link: **269**. Rows without one: **743**. Rows explicitly requiring candidate-supplied history or credentials: **83** (may overlap either link category).
 
 | Current role map | Test rows | With artifact link | Without artifact link | Candidate verification rows |
 |---|---:|---:|---:|---:|
@@ -27,7 +27,7 @@ Mapped test rows: **1012**. Rows with an artifact link: **268**. Rows without on
 | [mercor-systems-applied-ai](job-maps/mercor-systems-applied-ai.md) | 42 | 20 | 22 | 2 |
 | [openai-b2b-data-scientist](job-maps/openai-b2b-data-scientist.md) | 33 | 4 | 29 | 4 |
 | [openai-core-experimentation](job-maps/openai-core-experimentation.md) | 53 | 27 | 26 | 5 |
-| [openai-growth](job-maps/openai-growth.md) | 36 | 23 | 13 | 1 |
+| [openai-growth](job-maps/openai-growth.md) | 36 | 24 | 12 | 1 |
 | [openai-implicit-signals](job-maps/openai-implicit-signals.md) | 38 | 12 | 26 | 0 |
 | [openai-monetization-ai-ml](job-maps/openai-monetization-ai-ml.md) | 38 | 7 | 31 | 1 |
 | [openrouter-trust-safety](job-maps/openrouter-trust-safety.md) | 44 | 15 | 29 | 2 |

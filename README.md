@@ -38,7 +38,7 @@ This repository turns job-post statements into small, inspectable projects. Most
 - [Proof-link coverage and remaining gaps](PROOF_COVERAGE.md), with a reproducible audit script.
 - [Eight-week proof plan](ROADMAP.md) for turning the highest-value gaps into linked evidence.
 - [Audit of existing public GitHub work](EXISTING_WORK_AUDIT.md), with fixed-commit links and evidence limits.
-- Built proof: [budget allocation](projects/budget-allocation/), [marginal-return estimation](projects/marginal-return-estimation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [conversion and value forecasting](projects/conversion-value-forecast/), [full-funnel event model](projects/full-funnel-event-model/), [idempotent task queue](projects/idempotent-task-queue/), [life-sciences evidence gateway](projects/life-sciences-evidence-gateway/), [experiment audit](projects/experiment-audit/), [historical-experiment evidence retrieval](projects/experiment-insight-retrieval/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [contextual ads policy](projects/contextual-ads-policy/), [relational data privacy](projects/relational-data-privacy/), [reward-proxy stress test](projects/reward-proxy-stress/), [label-quality ablation](projects/label-quality-ablation/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [index selection](projects/index-selection-eval/), [music discovery evaluation](projects/music-discovery-eval/), [public-rating temporal evaluation](projects/movielens-temporal-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [abuse review workflow](projects/abuse-review-workflow/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), [real-data shopper classifier](projects/shopper-behavior-classifier/), and [post-training data checks](projects/post-training-data/).
+- Built proof: [budget allocation](projects/budget-allocation/), [marginal-return estimation](projects/marginal-return-estimation/), [spend pacing](projects/spend-pacing/), [joint allocation and pacing](projects/joint-allocation-pacing/), [incrementality](projects/incrementality/), [conversion and value forecasting](projects/conversion-value-forecast/), [full-funnel event model](projects/full-funnel-event-model/), [idempotent task queue](projects/idempotent-task-queue/), [life-sciences evidence gateway](projects/life-sciences-evidence-gateway/), [experiment audit](projects/experiment-audit/), [historical-experiment evidence retrieval](projects/experiment-insight-retrieval/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [contextual ads policy](projects/contextual-ads-policy/), [relational data privacy](projects/relational-data-privacy/), [reward-proxy stress test](projects/reward-proxy-stress/), [label-quality ablation](projects/label-quality-ablation/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [index selection](projects/index-selection-eval/), [music discovery evaluation](projects/music-discovery-eval/), [public-rating temporal evaluation](projects/movielens-temporal-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [abuse review workflow](projects/abuse-review-workflow/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), [real-data shopper classifier](projects/shopper-behavior-classifier/), and [post-training data checks](projects/post-training-data/).
 - The map labels unbuilt projects as **planned**. A plan is never presented as a completed proof link.
 
 ## Reproduce the proof
@@ -73,6 +73,7 @@ python3 -m unittest discover -s projects/reward-proxy-stress -p 'test_*.py'
 python3 -m unittest discover -s projects/full-funnel-event-model -p 'test_*.py'
 python3 -m unittest discover -s projects/idempotent-task-queue -p 'test_*.py'
 python3 -m unittest discover -s projects/life-sciences-evidence-gateway -p 'test_*.py'
+python3 -m unittest discover -s projects/joint-allocation-pacing -p 'test_*.py'
 python3 projects/budget-allocation/allocate.py
 python3 projects/spend-pacing/pacing.py
 python3 projects/incrementality/experiment.py
@@ -97,6 +98,7 @@ python3 projects/reward-proxy-stress/stress.py
 python3 projects/full-funnel-event-model/model.py
 python3 projects/idempotent-task-queue/queue.py
 python3 projects/life-sciences-evidence-gateway/gateway.py
+python3 projects/joint-allocation-pacing/orchestrate.py
 python3 projects/agent-trajectory-eval/evaluate.py
 ```
 

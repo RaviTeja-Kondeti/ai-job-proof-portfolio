@@ -1,0 +1,121 @@
+{
+  "assumption": "Synthetic ROI and response curves; no causal or real ad impact",
+  "initial_budget": 10000,
+  "trace": [
+    {
+      "allocation": {
+        "search_eu": 1000,
+        "search_us": 1200,
+        "social_us": 800
+      },
+      "day": 1,
+      "remaining_after": 7000,
+      "risk_adjusted_assumed_value": 574.0788,
+      "signals": {
+        "search_eu": {
+          "feedback_age_days": 0,
+          "maximum": 1200,
+          "minimum": 800,
+          "observed_roi": 1.1,
+          "raw_pacing_proposal": 966.67,
+          "reason": "controlled_roi_response"
+        },
+        "search_us": {
+          "feedback_age_days": 0,
+          "maximum": 1200,
+          "minimum": 800,
+          "observed_roi": 1.4,
+          "raw_pacing_proposal": 1066.67,
+          "reason": "controlled_roi_response"
+        },
+        "social_us": {
+          "feedback_age_days": 0,
+          "maximum": 1200,
+          "minimum": 800,
+          "observed_roi": 1.0,
+          "raw_pacing_proposal": 933.33,
+          "reason": "controlled_roi_response"
+        }
+      },
+      "status": "allocated",
+      "total_spend": 3000
+    },
+    {
+      "allocation": {
+        "search_eu": 1000,
+        "search_us": 1300,
+        "social_us": 700
+      },
+      "day": 2,
+      "remaining_after": 4000,
+      "risk_adjusted_assumed_value": 574.5275,
+      "signals": {
+        "search_eu": {
+          "feedback_age_days": 1,
+          "maximum": 1200,
+          "minimum": 800,
+          "observed_roi": 1.2,
+          "raw_pacing_proposal": 1000.0,
+          "reason": "controlled_roi_response"
+        },
+        "search_us": {
+          "feedback_age_days": 1,
+          "maximum": 1400,
+          "minimum": 1000,
+          "observed_roi": 1.5,
+          "raw_pacing_proposal": 1320.0,
+          "reason": "controlled_roi_response"
+        },
+        "social_us": {
+          "feedback_age_days": 3,
+          "maximum": 700,
+          "minimum": 700,
+          "observed_roi": null,
+          "raw_pacing_proposal": 640.0,
+          "reason": "safe_fallback_stale_or_invalid_feedback"
+        }
+      },
+      "status": "allocated",
+      "total_spend": 3000
+    },
+    {
+      "allocation": {
+        "search_eu": 1000,
+        "search_us": 1300,
+        "social_us": 800
+      },
+      "day": 3,
+      "remaining_after": 900,
+      "risk_adjusted_assumed_value": 584.6929,
+      "signals": {
+        "search_eu": {
+          "feedback_age_days": 0,
+          "maximum": 1200,
+          "minimum": 800,
+          "observed_roi": 1.4,
+          "raw_pacing_proposal": 1066.67,
+          "reason": "controlled_roi_response"
+        },
+        "search_us": {
+          "feedback_age_days": 0,
+          "maximum": 1500,
+          "minimum": 1100,
+          "observed_roi": 1.3,
+          "raw_pacing_proposal": 1343.33,
+          "reason": "controlled_roi_response"
+        },
+        "social_us": {
+          "feedback_age_days": 0,
+          "maximum": 800,
+          "minimum": 600,
+          "observed_roi": 1.2,
+          "raw_pacing_proposal": 700.0,
+          "reason": "controlled_roi_response"
+        }
+      },
+      "status": "allocated",
+      "total_spend": 3100
+    }
+  ],
+  "unspent_budget": 900
+}
