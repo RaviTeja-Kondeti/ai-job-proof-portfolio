@@ -18,6 +18,8 @@ A new public-Ashby sweep checked Handshake AI, P-1 AI, Stuut, Artificial Analysi
 
 The October 6 [P-1 AI Evaluation MTS](https://jobs.ashbyhq.com/P-1%20AI/efe3a263-f00a-42d3-b861-e0e225f23ff4) is $200k–$300k salary and involves judges/human evaluation, but explicitly seeks a technical background in physical engineering (power, mechanical, aerospace, robotics, or similar), which the user has not supplied. It is recorded as a domain-mismatch lead rather than a current match. Stuut's current [AI/ML MTS](https://jobs.ashbyhq.com/stuut-ai/37cc28af-0ce7-4ddb-a099-6fb88b0b593f) is salary-qualified, but not among its last-30-day `publishedAt` records; its new Applied AI Engineer opening is $150k–$200k. Artificial Analysis had no last-30-day listed postings in its live feed; Valkai's recent salary-qualified opening is security engineering; Resolution's research openings were last published in June. These feed dates supersede search crawl recency.
 
+Another employer-feed check found [Halluminate's $250k–$320k Research/Post-Training MTS](https://jobs.ashbyhq.com/halluminate/014ffff9-c2b7-47b1-a5f3-4b9f5b223e6c), but its last `publishedAt` is **July 15, 2026**, outside the window despite recent search crawling. [Liquid AI's current board](https://jobs.ashbyhq.com/liquid-ai) has no technical role last published in the window, and [Reflection AI's](https://jobs.ashbyhq.com/reflectionai) recent technical openings have no public salary component in its Ashby feed. They remain outside the verified date-and-base queue under the user's screen.
+
 ## Additional full-post checks
 
 | Employer posting | Finding |
