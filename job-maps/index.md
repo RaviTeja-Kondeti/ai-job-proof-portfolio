@@ -1,31 +1,44 @@
-# AI-first employer posting queue
+# AI-first roles published in the last 30 days
 
-This is a **posting queue**, not a claim that every opening was posted within a particular number of days. Career pages often omit their creation date. Links below are employer listings identified in the October 14, 2026 search. Salary is posted US annual **base**; an upper bound above $250k does not establish that a five-year candidate will receive that amount. Each posting requires its own statement-by-statement map and runnable proof before it is marked complete.
+**Audit date:** October 14, 2026 (US Eastern). **Window:** September 15–October 14. The table lists currently visible US roles whose technical work overlaps the user's stated five years of data science, ML, AI, GenAI, or LLM experience and whose posted **base range can exceed $250k**. It does not assert that every role is an equally likely match or that the candidate would receive the top of a range.
 
-| Employer | Role | Posted base | Map status |
+Date evidence came from employer ATS feeds: [Ashby's public posting API](https://developers.ashbyhq.com/docs/public-job-posting-api) exposes `publishedAt` (**last published**, so a republished older role can appear recent), while [Greenhouse's public board API](https://developers.greenhouse.io/job-board.html) exposes `first_published`. Search-engine crawl dates were not used as posting dates. Apply links and pay should be rechecked before an application.
+
+## Closest work overlap to inspect first
+
+| First or last published | Company and direct posting | US annual base | Qualification to verify | Evidence map |
+|---|---|---:|---|---|
+| Oct 13 | OpenAI — [MLE, Implicit Signals](https://jobs.ashbyhq.com/openai/a01fc9ed-de08-4326-9206-4ee3f08000dc) | $381k–$510k | Production classifiers, calibration, model serving | [Mapped; evaluation proof](openai-implicit-signals.md) |
+| Oct 13 | OpenAI — [MLE, Growth](https://openai.com/careers/machine-learning-engineer-growth-san-francisco/) | $381k–$423k | Optimization, control, causal growth measurement | [Mapped; 3 initial proofs](openai-growth.md) |
+| Sep 29 | Firecrawl — [Research Engineer, Benchmarks](https://jobs.ashbyhq.com/firecrawl/90f88e13-7d5f-43e2-a3fc-9e16d836b71c) | $250k–$290k in SF | 4+ years and **previously shipped** benchmark/evaluation work | [Mapped; toy prototype only](firecrawl-benchmarks.md) |
+| Oct 5 | Glean — [Senior/Staff Applied Scientist](https://job-boards.greenhouse.io/gleanwork/jobs/4740092005) | $180k–$330k | Master's plus 5+ years or PhD plus 3+; experimentation and LLM evals | Pending |
+| Sep 29 | OpenAI — [Applied AI Engineer, API Platform](https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae) | $251k–$278k | Customer-facing production LLM systems and evals | Pending |
+| Sep 30 | OpenAI — [Data Scientist, B2B Strategy & Intelligence](https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5) | $347k–$510k | Senior-level B2B/GTM analytics and executive decisions | Pending |
+| Oct 14 | Cohere — [MTS, Post-Training Data Infrastructure](https://jobs.ashbyhq.com/cohere/eef82766-7e31-430f-a102-bc33a5022597) | $205k–$380k in CA/NY/WA; $175k–$325k elsewhere | Large-scale ML data pipelines and distributed inference | Pending |
+| Sep 22 | WRITER — [AI Engineer](https://jobs.ashbyhq.com/writer/40f9e2b4-3284-4a20-b45d-0f5e5dd9108d) | $198k–$259k | 5+ years shipping production AI/ML; narrow margin over pay target | Pending |
+
+## Conditional or stretch roles
+
+| First or last published | Company and direct posting | US annual base | Main condition |
 |---|---|---:|---|
-| OpenAI | [MLE, Growth](https://openai.com/careers/machine-learning-engineer-growth-san-francisco/) | $381k–$423k | [Mapped; 3 initial projects built](openai-growth.md) |
-| OpenAI | [Data Scientist, Product](https://openai.com/careers/data-scientist-product-san-francisco/) | $230k–$385k | Pending |
-| OpenAI | [Applied AI Engineer, Enterprise](https://openai.com/careers/applied-ai-engineer-enterprise-san-francisco/) | $251k–$278k | Pending |
-| Anthropic | [ML/Research Engineer, Safeguards](https://job-boards.greenhouse.io/anthropic/jobs/4949336008) | $350k–$500k | [Mapped; proof projects pending](anthropic-safeguards.md) |
-| Anthropic | [Applied AI, Research Engineer](https://job-boards.greenhouse.io/anthropic/jobs/5390811008) | $300k–$400k; asks 6+ years | Pending |
-| Abridge | [Software Engineer, Generative AI](https://jobs.ashbyhq.com/abridge/897709b2-e03d-4574-8611-5cfd669adde9) | $255k–$300k | [Mapped; 1 initial project built](abridge-genai.md) |
-| Firecrawl | [MLE](https://jobs.ashbyhq.com/firecrawl/72f9dc1d-65db-48c9-b3d9-c6ccdb997006/) | $250k–$290k SF | Pending |
-| WRITER | [AI Engineer](https://jobs.ashbyhq.com/writer/8889d06e-efa9-4096-b806-f1626fe060ae) | $186.5k–$328.5k SF/NYC | Pending |
-| Mercor | [MLE, Frontier Data Products](https://jobs.ashbyhq.com/mercor/73a9f1c6-3c62-4c49-b65d-e5f6a3549d95/) | $160k–$500k | Pending |
-| Mercor | [SWE, Machine Learning](https://jobs.ashbyhq.com/mercor/7cee578f-799c-46ad-8951-cb0b724d619a/) | $160k–$500k | Pending |
-| Glean | [Senior/Staff Applied Scientist](https://job-boards.greenhouse.io/gleanwork/jobs/4740088005) | $180k–$330k; graduate degree specified | Pending |
-| Harvey | [Research Engineer, Post-Training](https://www.harvey.ai/company/careers/d78083d9-a203-4ae4-b4b9-454d65df3702) | $231k–$340k | Pending |
-| Cohere | [Senior Research Engineer, Safety Tooling and Data](https://jobs.ashbyhq.com/cohere/2d4d224f-94d4-40ce-88d5-5d340bc0da4e/) | $205k–$380k CA/NY/WA | Pending |
-| Scale AI | [Staff/Senior ML Research Engineer](https://job-boards.greenhouse.io/scaleai/jobs/4714527005) | $250k–$350k | Pending |
-| Goodfire | [MLE](https://job-boards.greenhouse.io/goodfire/jobs/5019847008) | $200k–$400k | Pending |
-| Inference.net | [ML Researcher](https://jobs.ashbyhq.com/inference/fba2457b-6ef7-4b65-8086-8bf61790279d/) | $250k–$350k | Pending |
-| General Intelligence | [Applied AI Engineer, Agent](https://jobs.ashbyhq.com/generalintelligencecompany/4bc5d479-3bba-432d-887f-423847aa650a) | $250k–$300k | Pending |
-| Superhuman | [MLE, Agents](https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc/aab70a55-b344-4b36-9101-d90bf463cc5d/) | $250k–$385k Zone 1; MS/PhD specified | Pending; recheck availability |
+| Sep 28 | Anthropic — [Staff+ SWE, Account Abuse (ML)](https://job-boards.greenhouse.io/anthropic/jobs/5436293008) | $320k–$485k | Staff+ production fraud/abuse ML, feature correctness, low-latency scoring |
+| Oct 2 | Anthropic — [Staff Research Engineer, Multi-Agent Scaling](https://job-boards.greenhouse.io/anthropic/jobs/5442680008) | $500k–$850k | Large-scale agent systems and substantial end-to-end research/engineering ownership |
+| Sep 28 | Anthropic — [Applied AI Engineer, Life Sciences](https://job-boards.greenhouse.io/anthropic/jobs/5437172008) | $280k–$320k | Deep life-sciences or scientific-computing experience |
+| Sep 24 | OpenAI — [MLE, Core Experimentation](https://jobs.ashbyhq.com/openai/9d4d2727-27f3-4a63-857c-a96466130645) | $437k–$485k | Technical lead for a new ML-powered experimentation capability |
+| Sep 21 | OpenAI — [MLE, Monetization AI/ML](https://jobs.ashbyhq.com/openai/80f9f564-d789-47bc-91c3-3babf5a1a33d) | $381k–$555k | Graduate degree and deep learning/transformer training preferred |
+| Oct 9 | OpenAI — [SWE, API Agents](https://jobs.ashbyhq.com/openai/a6ab3111-7092-4da2-a7a6-71e01351bfda) | $266k–$445k | 7+ years of backend/platform engineering specified |
+| Sep 24 | Mercor — [SWE, Systems & Platform Applied AI](https://jobs.ashbyhq.com/mercor/374cd009-516f-4a1f-abbf-bcca5287daae) | $220k–$500k | Strong backend services and operational ownership; very broad band |
+| Sep 18 | Mercor — [Research Scientist, Environments/Data/Post-Training](https://jobs.ashbyhq.com/mercor/1dcab154-b92d-4a5f-aed5-b1b8c049cdbc) | $250k–$500k | Hands-on frontier model research and post-training |
+| Oct 7 | Baseten — [Post-Training Applied Researcher](https://jobs.ashbyhq.com/baseten/2d18b2aa-b6fc-4f1c-8936-33b03255a090) | $200k–$275k | Hands-on LLM RL, reward engineering, and customer-facing research |
+| Sep 23 | Sierra — [SWE, Agent, Tech/Media/Telecom](https://jobs.ashbyhq.com/sierra/fd5df98a-e2c8-4d47-a803-daee5cccb36f) | $180k–$390k | Production agent engineering; several domain variants share similar bands |
+| Sep 28 | Decagon — [Staff SWE, Agent Product](https://jobs.ashbyhq.com/decagon/508a6226-4ee4-4cfa-8a9c-04d48bef81a8) | $200k–$400k | Staff-level product and agent engineering |
+| Oct 5 | Modal — [MTS, Inference Runtime](https://jobs.ashbyhq.com/modal/6195f552-ca6f-4540-b7f6-e7e6054e47ad) | $220k–$300k | Low-level inference/runtime systems |
+| Sep 25 | Replit — [Staff SWE, Agentic Ads](https://jobs.ashbyhq.com/replit/4df82fb0-0bcb-4034-89ce-09e679b00fe7) | $250k–$360k | Staff-level software engineering and ads systems |
+| Oct 13 | Replit — [Data Scientist, Growth](https://jobs.ashbyhq.com/replit/1066b974-3cd8-42cf-a11c-a4217c06f70f) | $210k–$327k | Posting requires **6+ years** in data science, including significant growth or experimentation work; user reports about 5 years total |
+| Sep 25 | Glean — [MLE, Search Quality](https://job-boards.greenhouse.io/gleanwork/jobs/4738120005) | $140k–$265k | Ranking/search experience; only the top of the range meets pay target |
 
-## Verification still required
+## Scope and exclusions
 
-1. Confirm whether each posting is still accepting applications before applying or building a dedicated project.
-2. Obtain an actual publish date from the employer or ATS before labeling a role newly posted. A search engine crawl date is **not** a posting date.
-3. Confirm education, work authorization, domain specialization, and production engineering depth from the user's real background before marking a role as a close personal match.
-4. Keep each requirement-to-proof link honest: a planned project and a synthetic demonstration are not evidence of employer impact.
+The public feeds checked OpenAI, Anthropic, Abridge, Firecrawl, Glean, WRITER, Mercor, Cohere, Baseten, Harvey, Sierra, Replit, Cursor, Cognition, Perplexity, ElevenLabs, Decagon, LangChain, Mistral AI, Goodfire, Scale AI, Together AI, Modal, Anyscale, and other boards. Some relevant current openings had **no verified US base range** (for example, Cursor and Cognition research roles); others were outside the 30-day window or had a top of range below the target. The [previous shortlist](previous-shortlist.md) is retained for background only and should not be treated as a recent-posting list.
+
+The user has confirmed any US location and onsite/hybrid work. Degree, work authorization, direct production ownership, and specialty experience remain unknown. These qualifications must be checked against real history; synthetic portfolio projects cannot prove them.

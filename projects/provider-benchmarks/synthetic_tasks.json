@@ -1,0 +1,11 @@
+[
+  {"id":"c1","domain":"company","ground_truth":"Acme|US","providers":{"A":{"answer":"Acme|US","latency_ms":120,"cost_usd":0.02},"B":{"answer":"Acme|US","latency_ms":180,"cost_usd":0.01},"C":{"answer":"Acme|CA","latency_ms":80,"cost_usd":0.03}}},
+  {"id":"c2","domain":"company","ground_truth":"Nova|UK","providers":{"A":{"answer":"Nova|UK","latency_ms":140,"cost_usd":0.02},"B":{"answer":"Nova|US","latency_ms":160,"cost_usd":0.01},"C":{"answer":"Nova|UK","latency_ms":100,"cost_usd":0.03}}},
+  {"id":"c3","domain":"company","ground_truth":"Orion|US","providers":{"A":{"answer":"Orion|US","latency_ms":130,"cost_usd":0.02},"B":{"answer":"Orion|US","latency_ms":170,"cost_usd":0.01},"C":{"answer":"","latency_ms":90,"cost_usd":0.03}}},
+  {"id":"p1","domain":"person","ground_truth":"Lee|CTO","providers":{"A":{"answer":"Lee|CEO","latency_ms":120,"cost_usd":0.02},"B":{"answer":"Lee|CTO","latency_ms":180,"cost_usd":0.01},"C":{"answer":"Lee|CTO","latency_ms":80,"cost_usd":0.03}}},
+  {"id":"p2","domain":"person","ground_truth":"Ari|VP Data","providers":{"A":{"answer":"Ari|VP Data","latency_ms":140,"cost_usd":0.02},"B":{"answer":"Ari|VP Data","latency_ms":160,"cost_usd":0.01},"C":{"answer":"Ari|Director","latency_ms":100,"cost_usd":0.03}}},
+  {"id":"p3","domain":"person","ground_truth":"Mina|CFO","providers":{"A":{"answer":"","latency_ms":130,"cost_usd":0.02},"B":{"answer":"Mina|CFO","latency_ms":170,"cost_usd":0.01},"C":{"answer":"Mina|CFO","latency_ms":90,"cost_usd":0.03}}},
+  {"id":"j1","domain":"job","ground_truth":"MLE|Acme","providers":{"A":{"answer":"MLE|Acme","latency_ms":120,"cost_usd":0.02},"B":{"answer":"MLE|Acme","latency_ms":180,"cost_usd":0.01},"C":{"answer":"MLE|Acme","latency_ms":80,"cost_usd":0.03}}},
+  {"id":"j2","domain":"job","ground_truth":"DS|Nova","providers":{"A":{"answer":"DS|Nova","latency_ms":140,"cost_usd":0.02},"B":{"answer":"","latency_ms":160,"cost_usd":0.01},"C":{"answer":"DS|Nova","latency_ms":100,"cost_usd":0.03}}},
+  {"id":"j3","domain":"job","ground_truth":"RE|Orion","providers":{"A":{"answer":"RE|Orion","latency_ms":130,"cost_usd":0.02},"B":{"answer":"RE|Orion","latency_ms":170,"cost_usd":0.01},"C":{"answer":"RE|Orion","latency_ms":90,"cost_usd":0.03}}}
+]
