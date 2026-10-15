@@ -1,0 +1,445 @@
+{
+  "clean": {
+    "average_precision": 0.3595721878337599,
+    "brier": 0.15396587913836204,
+    "ece_10_bins": 0.06049570801400281
+  },
+  "protocol": {
+    "dataset_sha256": "2972e6184d3ad7beaaa831d9fc2b059dc3ee29df69d1ec593c466a5cd8485d14",
+    "intervention": "swap a fixed fraction of positive training labels with an equal number of negative labels",
+    "levels_fraction_of_positives": [
+      0.2,
+      0.5
+    ],
+    "model": "same train-only preprocessing and fixed logistic recipe as shopper-behavior-classifier",
+    "numpy": "2.3.5",
+    "outcome": "same unmodified November-December labels for every arm",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "source": "UCI Online Shoppers Purchasing Intention Dataset",
+    "test_months": [
+      "Dec",
+      "Nov"
+    ],
+    "test_n": 4725,
+    "test_positives": 976,
+    "train_months": [
+      "Aug",
+      "Feb",
+      "Jul",
+      "June",
+      "Mar",
+      "May"
+    ],
+    "train_n": 6608,
+    "train_positives": 731
+  },
+  "treatments": {
+    "0.2": {
+      "mean_ap_change_vs_clean": -0.0052299218813415815,
+      "mean_average_precision": 0.35434226595241824,
+      "mean_brier": 0.15751939534301115,
+      "mean_brier_change_vs_clean": 0.0035535162046491002,
+      "range_average_precision": [
+        0.3468284661773457,
+        0.36040062382688554
+      ],
+      "runs": 20,
+      "seed_results": [
+        {
+          "average_precision": 0.35310169139617176,
+          "brier": 0.15710261523378413,
+          "ece_10_bins": 0.06844417385418075,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 0,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.3571479173923367,
+          "brier": 0.15784688255545787,
+          "ece_10_bins": 0.07324037177654386,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 1,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.3470413857565052,
+          "brier": 0.15827977004183166,
+          "ece_10_bins": 0.07456449563370494,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 2,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.3468284661773457,
+          "brier": 0.15838992423635617,
+          "ece_10_bins": 0.07443109071662037,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 3,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.3505537652481632,
+          "brier": 0.15862480737455992,
+          "ece_10_bins": 0.07731131814062209,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 4,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.35816658742273605,
+          "brier": 0.15726636743642267,
+          "ece_10_bins": 0.07320631231552774,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 5,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.350444086275413,
+          "brier": 0.15733547702153391,
+          "ece_10_bins": 0.07242994203166041,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 6,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.3580931933251219,
+          "brier": 0.15744449064250993,
+          "ece_10_bins": 0.07284140546290793,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 7,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.36040062382688554,
+          "brier": 0.15725665717795906,
+          "ece_10_bins": 0.07341659146197943,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 8,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.359460650727949,
+          "brier": 0.15670778963868112,
+          "ece_10_bins": 0.07189583956370559,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 9,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.35598711027695384,
+          "brier": 0.1579142068868753,
+          "ece_10_bins": 0.07327472815673355,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 10,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.35468764244366446,
+          "brier": 0.1566423818407161,
+          "ece_10_bins": 0.06683259943772883,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 11,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.35355730092225846,
+          "brier": 0.15759539569173323,
+          "ece_10_bins": 0.07636036016993232,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 12,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.3536370411380496,
+          "brier": 0.15710574219902798,
+          "ece_10_bins": 0.07030778123763255,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 13,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.350503493332112,
+          "brier": 0.15855141776171497,
+          "ece_10_bins": 0.07731422201937975,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 14,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.35489571000204995,
+          "brier": 0.15694240946286572,
+          "ece_10_bins": 0.06959715742184393,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 15,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.35827809038301106,
+          "brier": 0.15738203010450552,
+          "ece_10_bins": 0.07489482955224566,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 16,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.3545102406123384,
+          "brier": 0.15699552964536428,
+          "ece_10_bins": 0.06978178469682159,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 17,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.35741594998017434,
+          "brier": 0.15716162987830753,
+          "ece_10_bins": 0.07292970656365755,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 18,
+          "total_changed": 292
+        },
+        {
+          "average_precision": 0.3521343724091258,
+          "brier": 0.1578423820300158,
+          "ece_10_bins": 0.07449945507147494,
+          "negative_to_positive": 146,
+          "positive_to_negative": 146,
+          "seed": 19,
+          "total_changed": 292
+        }
+      ]
+    },
+    "0.5": {
+      "mean_ap_change_vs_clean": -0.0181207602380277,
+      "mean_average_precision": 0.3414514275957322,
+      "mean_brier": 0.1632651346878749,
+      "mean_brier_change_vs_clean": 0.009299255549512879,
+      "range_average_precision": [
+        0.31897121498636516,
+        0.3709998158732684
+      ],
+      "runs": 20,
+      "seed_results": [
+        {
+          "average_precision": 0.343242494962731,
+          "brier": 0.1619493952624923,
+          "ece_10_bins": 0.08174948589911597,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 0,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.3210298558826436,
+          "brier": 0.16355750047474535,
+          "ece_10_bins": 0.08759535594707304,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 1,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.3479383962459481,
+          "brier": 0.1631393364831077,
+          "ece_10_bins": 0.09492465073283086,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 2,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.34409554326080455,
+          "brier": 0.1639000589940584,
+          "ece_10_bins": 0.09825035808230836,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 3,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.3709998158732684,
+          "brier": 0.16274568827695998,
+          "ece_10_bins": 0.09210612671511087,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 4,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.3355545012676022,
+          "brier": 0.16435738925188872,
+          "ece_10_bins": 0.0976243945644543,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 5,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.3288345123805446,
+          "brier": 0.1635841350664317,
+          "ece_10_bins": 0.08773148485817271,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 6,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.34301378247456354,
+          "brier": 0.16156998285403515,
+          "ece_10_bins": 0.08684636888431672,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 7,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.35669585984228214,
+          "brier": 0.16217207693854238,
+          "ece_10_bins": 0.09200231598567152,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 8,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.329776845130987,
+          "brier": 0.16410601820789775,
+          "ece_10_bins": 0.09603362514208419,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 9,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.3435868398982085,
+          "brier": 0.16242869510946698,
+          "ece_10_bins": 0.09297739205689307,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 10,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.34040376165799535,
+          "brier": 0.1644020340547888,
+          "ece_10_bins": 0.09673859383143033,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 11,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.3492121107006231,
+          "brier": 0.1633952792146007,
+          "ece_10_bins": 0.095681529346846,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 12,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.3375056216395885,
+          "brier": 0.16339282341869726,
+          "ece_10_bins": 0.0877214640227792,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 13,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.354004118905239,
+          "brier": 0.16277868181069463,
+          "ece_10_bins": 0.09485967989460727,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 14,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.3263955185880538,
+          "brier": 0.16390671723594674,
+          "ece_10_bins": 0.09226208020502746,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 15,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.34173955654918287,
+          "brier": 0.16289887931238586,
+          "ece_10_bins": 0.0904611095627117,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 16,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.3511470745793344,
+          "brier": 0.1633892577995757,
+          "ece_10_bins": 0.0952423467619835,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 17,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.3448811270886778,
+          "brier": 0.16365727142896172,
+          "ece_10_bins": 0.09037084796721903,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 18,
+          "total_changed": 732
+        },
+        {
+          "average_precision": 0.31897121498636516,
+          "brier": 0.16397147256222064,
+          "ece_10_bins": 0.08415796809621107,
+          "negative_to_positive": 366,
+          "positive_to_negative": 366,
+          "seed": 19,
+          "total_changed": 732
+        }
+      ]
+    }
+  }
+}
