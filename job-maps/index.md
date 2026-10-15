@@ -7,7 +7,7 @@ This is a **posting queue**, not a claim that every opening was posted within a 
 | OpenAI | [MLE, Growth](https://openai.com/careers/machine-learning-engineer-growth-san-francisco/) | $381k–$423k | [Mapped; 3 initial projects built](openai-growth.md) |
 | OpenAI | [Data Scientist, Product](https://openai.com/careers/data-scientist-product-san-francisco/) | $230k–$385k | Pending |
 | OpenAI | [Applied AI Engineer, Enterprise](https://openai.com/careers/applied-ai-engineer-enterprise-san-francisco/) | $251k–$278k | Pending |
-| Anthropic | [ML/Research Engineer, Safeguards](https://job-boards.greenhouse.io/anthropic/jobs/4949336008) | $350k–$500k | Pending |
+| Anthropic | [ML/Research Engineer, Safeguards](https://job-boards.greenhouse.io/anthropic/jobs/4949336008) | $350k–$500k | [Mapped; proof projects pending](anthropic-safeguards.md) |
 | Anthropic | [Applied AI, Research Engineer](https://job-boards.greenhouse.io/anthropic/jobs/5390811008) | $300k–$400k; asks 6+ years | Pending |
 | Abridge | [Software Engineer, Generative AI](https://jobs.ashbyhq.com/abridge/897709b2-e03d-4574-8611-5cfd669adde9) | $255k–$300k | [Mapped; 1 initial project built](abridge-genai.md) |
 | Firecrawl | [MLE](https://jobs.ashbyhq.com/firecrawl/72f9dc1d-65db-48c9-b3d9-c6ccdb997006/) | $250k–$290k SF | Pending |
