@@ -1,0 +1,20 @@
+{
+  "tracks": {
+    "p1": {"genre": "pop", "popularity": 100},
+    "p2": {"genre": "pop", "popularity": 90},
+    "p3": {"genre": "pop", "popularity": 80},
+    "j1": {"genre": "jazz", "popularity": 35},
+    "j2": {"genre": "jazz", "popularity": 30},
+    "j3": {"genre": "jazz", "popularity": 25},
+    "e1": {"genre": "electronic", "popularity": 45},
+    "e2": {"genre": "electronic", "popularity": 40},
+    "e3": {"genre": "electronic", "popularity": 20}
+  },
+  "users": [
+    {"id": "jazz_1", "heard": ["j3"], "heldout_relevance": {"j1": 3, "j2": 2, "e1": 1, "p1": 0, "p2": 0, "p3": 0}},
+    {"id": "jazz_2", "heard": ["j2", "j3"], "heldout_relevance": {"j1": 3, "e2": 1, "p1": 0, "p2": 0, "p3": 0}},
+    {"id": "electronic_1", "heard": ["e3"], "heldout_relevance": {"e1": 3, "e2": 2, "j1": 1, "p1": 0, "p2": 0, "p3": 0}},
+    {"id": "electronic_2", "heard": ["e2", "e3"], "heldout_relevance": {"e1": 3, "j1": 1, "p1": 0, "p2": 0, "p3": 0}},
+    {"id": "cold_start", "heard": [], "heldout_relevance": {"p1": 3, "p2": 2, "j1": 1, "e1": 1}}
+  ]
+}
