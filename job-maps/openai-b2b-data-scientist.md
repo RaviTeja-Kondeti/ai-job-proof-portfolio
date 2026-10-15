@@ -8,7 +8,7 @@ Each substantive candidate-facing line is translated into a separate project tes
 |---|---|---|
 | Grow a B2B ecosystem and GTM data science capability | Can analytics shape a commercial operating decision? | **Planned:** B2B opportunity-prioritization case study. |
 | Ambiguous commercial questions need evidence and action | Can a vague request become an explicit decision and evidence plan? | **Planned:** ambiguity-to-decision brief. |
-| Business spans products, segments, markets, and field teams | Can data be joined across these grains correctly? | **Planned:** synthetic B2B metrics warehouse and data model. |
+| Business spans products, segments, markets, and field teams | Can data be joined across these grains correctly? | **Built, partial:** [account-grain SQL metric model](../projects/b2b-metrics-layer/); markets and field teams remain planned. |
 | Partner with GTM, Revenue, Product, Finance, RevOps, Strategy, DS | Can assumptions and decisions be shared across groups? | **Planned:** stakeholder decision memo with metric contract. |
 | International strategy | Can market selection account for adoption and cost? | **Planned:** market-expansion scorecard. |
 | Monetization | Can pricing impact be estimated causally? | **Planned:** B2B pricing experiment or quasi-experiment. |
@@ -22,7 +22,7 @@ Each substantive candidate-facing line is translated into a separate project tes
 | Structure B2B questions into operational plans | Is the decision, evidence, owner, and action explicit? | **Planned:** one-page commercial decision specification. |
 | Lead deep dives across commercial themes | Can one analysis compare multiple hypotheses? | **Planned:** B2B growth-driver decomposition. |
 | Analyze product usage and customer behavior | Are activation and retention linked to account outcomes? | **Planned:** account usage cohort model. |
-| Analyze adoption, sales activity, pipeline, revenue, and market context | Can leading indicators be connected to lagging revenue? | **Planned:** full-funnel GTM metric model. |
+| Analyze adoption, sales activity, pipeline, revenue, and market context | Can leading indicators be connected to lagging revenue? | **Built, narrow:** [usage/pipeline/revenue SQL join](../projects/b2b-metrics-layer/); causal driver analysis remains planned. |
 | Insights drive prioritization, field plays, investment, cadence | Does the recommendation change allocation or process? | **Planned:** resource-allocation simulation and operating review. |
 | Crisp executive communication with assumptions and tradeoffs | Can a leader understand uncertainty and decide? | **Planned:** executive memo plus technical appendix. |
 | Modern AI tools synthesize evidence and improve analysis | Does generated analysis cite reliable inputs and survive review? | **Planned:** source-grounded strategy assistant. |
@@ -30,8 +30,8 @@ Each substantive candidate-facing line is translated into a separate project tes
 | Senior quantitative role experience | What actual senior scope and outcomes are verifiable? | **Candidate verification:** real resume and shipped decision examples. |
 | Business judgment and decisions leaders used | Can a past recommendation's adoption be shown? | **Candidate verification:** real business impact case; synthetic work is insufficient. |
 | B2B/GTM/commercial/monetization/product growth experience | Which domains have actual experience? | **Candidate verification:** project/employer evidence; do not infer from ML skills. |
-| SQL and Python | Can data be joined and analyzed reproducibly? | **Planned:** SQL/Python B2B analysis package with data quality checks. |
-| Connect product, customer, sales, revenue, market, operations | Is there a coherent entity and metric model? | **Planned:** warehouse star schema with reconciled totals. |
+| SQL and Python | Can data be joined and analyzed reproducibly? | **Built, synthetic:** [SQL/Python B2B metric layer](../projects/b2b-metrics-layer/); production-scale work remains unverified. |
+| Connect product, customer, sales, revenue, market, operations | Is there a coherent entity and metric model? | **Built, partial:** [account-grain usage/sales/revenue model](../projects/b2b-metrics-layer/); market/operations and finance reconciliation remain planned. |
 | Manage uncertainty and pick high-value analysis | Does more data change the recommendation enough to justify effort? | **Planned:** value-of-information analysis. |
 | Influence leaders and cross-functional partners | Can opposing priorities be resolved transparently? | **Planned:** recommendation review with objections and response. |
 | Fast-changing team and roadmap | Can assumptions be revisited on a fixed cadence? | **Planned:** monthly strategy update and decision log. |

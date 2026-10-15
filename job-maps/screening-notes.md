@@ -4,6 +4,8 @@ The candidate reported about five years in data science, machine learning, AI, g
 
 The audit inspected 32 public Ashby boards and six public Greenhouse boards. Four Ashby board requests failed (Typeface, Luma, Replicate, Weights & Biases); these were **not** counted as negative results. The board list is broad but not a census of every AI company. The role list uses title, US location, posted base band, description, and explicit experience requirements. For Ashby, `publishedAt` is a last-published timestamp, so original posting age can be older than 30 days. For Greenhouse, `first_published` was used. A top-of-band above $250k is not a likely offer above $250k.
 
+Official-site follow-up on those failures found [Luma's current careers list](https://lumalabs.ai/careers) with US research/infrastructure openings but no verified posting dates or base bands on the listing, [Typeface's careers page](https://www.typeface.ai/careers) with engineering/AI categories but no date-verified role list in this audit, and [Weights & Biases' notice](https://wandb.ai/site/careers/) that its roles have moved to CoreWeave's careers site. [Replicate's jobs page](https://replicate.com/about/jobs/machine-learning-engineer---media-models) was not sufficient to establish a current 30-day, US-base-qualified role. These remain **coverage gaps**, not exclusions.
+
 ## Additional full-post checks
 
 | Employer posting | Finding |

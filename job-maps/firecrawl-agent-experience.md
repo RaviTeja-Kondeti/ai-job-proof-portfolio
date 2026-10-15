@@ -30,7 +30,7 @@ Each distinct candidate-evaluating statement, including company context, values,
 | Own question through shipped answer | Is one feature tied to outcome and support plan? | **Planned:** full agent-experience case study. |
 | A track record of high-quality shipped products | Which actual product launches are verifiable? | **Candidate verification:** real employment/OSS history; synthetic projects are not a substitute. |
 | Comfortable reading behavioral data and acting | Do logs connect to product decisions? | **Planned:** agent-event model and experiment readout. |
-| Familiar with MCP, CLI, skills, APIs, docs | Can the same agent task work across interfaces? | **Planned:** interface interoperability matrix. |
+| Familiar with MCP, CLI, skills, APIs, docs | Can the same agent task work across interfaces? | **Existing partial code:** [Chirp agent runtime and API](https://github.com/RaviTeja-Kondeti/Twitter-for-AI-Agents/tree/ac297faa87caf90e11f8be0519ac5192840f451b); **planned:** MCP/CLI/skill interoperability matrix. See [evidence limits](../EXISTING_WORK_AUDIT.md). |
 | Actively follow emerging AI tools | Can novelty be separated from utility? | **Planned:** time-boxed evaluation of two new harnesses. |
 | Independent in an uncharted area | Can a narrow initial scope be chosen without a ticket? | **Planned:** self-authored scope and release decision record. |
 | Ex-founder, early engineer, OSS, or public work often fits | Is comparable real public ownership visible? | **Candidate verification:** actual OSS or product history; do not imply founder status. |

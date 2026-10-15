@@ -20,7 +20,7 @@ Each distinct candidate-evaluating statement is treated as a test and small proj
 | Diagnose capacity-fleet bottlenecks | Can scheduling keep expensive workers utilized? | **Planned:** fleet-capacity simulation with queue metrics. |
 | Diagnose async orchestration bottlenecks | Can stuck jobs and backpressure be observed? | **Planned:** async-eval trace and fault study. |
 | Build/debug/optimize large distributed systems | What actual scale and operational ownership exist? | **Candidate verification:** production system metrics and responsibility; toy work is insufficient. |
-| Dive deep across all layers | Can an observed regression be traced to root cause? | **Planned:** end-to-end eval incident reconstruction. |
+| Dive deep across all layers | Can an observed regression be traced to root cause? | **Existing partial code:** [Vortex C++ engine and benchmark](https://github.com/RaviTeja-Kondeti/vortex/tree/da5cdc85f7db59c21871b737ee9d7ad841c97dff); **planned:** end-to-end LLM-eval incident reconstruction. See [evidence limits](../EXISTING_WORK_AUDIT.md). |
 | LLM inference experience preferred | Can quality, latency, and cost be measured together? | **Planned:** batched inference tradeoff study. |
 | GPU management, scheduling, dynamic optimization preferred | Are scarce accelerators allocated to highest-value evals? | **Planned:** GPU scheduling simulation with capacity constraints. |
 | Interfaces for comparing models/evals preferred | Can a reviewer reproduce a comparison and see uncertainty? | **Built, toy comparison:** [provider benchmark structure](../projects/provider-benchmarks/); **planned:** model/eval comparison UI. |

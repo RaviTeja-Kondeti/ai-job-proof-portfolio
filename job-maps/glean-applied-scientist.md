@@ -29,7 +29,7 @@ Each substantive candidate-evaluating line, including the company and AI-workflo
 | Statistics/ML improve products and internal tools pragmatically | Can a technique change a user decision under time pressure? | **Planned:** before/after product decision case study. |
 | Python library used by many internal users | Is an API maintainable and documented for others? | **Planned:** versioned evaluation Python package with adoption example. |
 | Concise spoken/written communication and technical docs | Can findings be understood by technical and product readers? | **Planned:** two-audience evaluation decision memo. |
-| SQL and source-controlled dbt ETL/ELT | Can metric data be reproduced from raw events? | **Planned:** SQL/dbt transformation project with tests and lineage. |
+| SQL and source-controlled dbt ETL/ELT | Can metric data be reproduced from raw events? | **Built, SQL-only:** [account metric model and tests](../projects/b2b-metrics-layer/); dbt and warehouse lineage remain planned. |
 | Product KPIs, guardrails, dashboards, raw-data insight | Can metric definitions prevent misleading wins? | **Planned:** KPI dashboard with guardrail breach examples. |
 | B2B SaaS experience | What actual product/domain history supports this? | **Candidate verification:** employer/project evidence; synthetic work cannot prove it. |
 | Ranking, experiment platform, or ML measurement experience | Has one of these been delivered for real users? | **Built, small measurement demos:** [incrementality](../projects/incrementality/) and [classifier evaluation](../projects/classifier-evaluation/); **history still unverified**. |

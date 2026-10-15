@@ -17,7 +17,7 @@ Each substantive candidate-facing line is a separate test and small proof projec
 | Ethical alignment matters | Can harmful or unsupported outputs be caught? | **Planned:** risk taxonomy and safety evaluation suite. |
 | Architect, develop, deploy scalable AI applications | Can one service run, be monitored, and rolled back? | **Planned:** deployed agent reference application. |
 | Robust platform integration | Are APIs and failure modes explicit? | **Planned:** simulated platform adapter and contract tests. |
-| Translate agent research into customer features | Does a new method beat a baseline on user outcomes? | **Planned:** agent feature experiment with adoption metric. |
+| Translate agent research into customer features | Does a new method beat a baseline on user outcomes? | **Existing partial code:** [Chirp agent runtime](https://github.com/RaviTeja-Kondeti/Twitter-for-AI-Agents/blob/ac297faa87caf90e11f8be0519ac5192840f451b/packages/agent-runtime/src/run.ts); **planned:** customer outcome experiment. See [evidence limits](../EXISTING_WORK_AUDIT.md). |
 | Work with researchers, data scientists, product managers | Can requirements be agreed across disciplines? | **Planned:** cross-functional design brief and decision record. |
 | Evaluate emerging AI tools/frameworks | Are fixed tasks and fair criteria used? | **Built, toy:** [benchmark scaffold](../projects/provider-benchmarks/); **planned:** real tool evaluation. |
 | Detect bias | Are weak groups visible before release? | **Built, toy:** [per-slice classifier gate](../projects/classifier-evaluation/); **planned:** agent bias study. |
