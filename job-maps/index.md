@@ -27,7 +27,7 @@ Among the closest-overlap roles, the listed OpenAI MLE Growth, MLE Implicit Sign
 |---|---|---:|---|
 | Oct 2 | Anthropic — [Staff Research Engineer, Multi-Agent Scaling](https://job-boards.greenhouse.io/anthropic/jobs/5442680008) | $500k–$850k | Large-scale agent systems and substantial end-to-end research/engineering ownership |
 | Sep 28 | Anthropic — [Applied AI Engineer, Life Sciences](https://job-boards.greenhouse.io/anthropic/jobs/5437172008) | $280k–$320k | Deep life-sciences or scientific-computing experience |
-| Sep 21 | OpenAI — [MLE, Monetization AI/ML](https://jobs.ashbyhq.com/openai/80f9f564-d789-47bc-91c3-3babf5a1a33d) | $381k–$555k | Graduate degree and deep learning/transformer training preferred |
+| Sep 21 | OpenAI — [MLE, Monetization AI/ML](https://jobs.ashbyhq.com/openai/80f9f564-d789-47bc-91c3-3babf5a1a33d) | $381k–$555k | Graduate degree and deep learning/transformer training preferred. [Line map](openai-monetization-ai-ml.md) |
 | Sep 24 | Mercor — [SWE, Systems & Platform Applied AI](https://jobs.ashbyhq.com/mercor/374cd009-516f-4a1f-abbf-bcca5287daae) | $220k–$500k | Strong backend services and operational ownership; very broad band |
 | Sep 18 | Mercor — [Research Scientist, Environments/Data/Post-Training](https://jobs.ashbyhq.com/mercor/1dcab154-b92d-4a5f-aed5-b1b8c049cdbc) | $250k–$500k | Hands-on frontier model research and post-training |
 | Oct 7 | Baseten — [Post-Training Applied Researcher](https://jobs.ashbyhq.com/baseten/2d18b2aa-b6fc-4f1c-8936-33b03255a090) | $200k–$275k | Hands-on LLM RL, reward engineering, and customer-facing research |

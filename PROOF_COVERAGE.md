@@ -2,9 +2,9 @@
 
 This inventory checks **only whether a mapped test row links to an inspectable project or the candidate's existing public GitHub work**. One artifact may support several rows; this audit does not prove that every line has its own distinct project. A link can be partial, synthetic, inconclusive, or irrelevant to a production qualification; it does not establish that the test has been passed. The tool also cannot verify that every sentence of the live posting was mapped. [The role queue](job-maps/index.md) defines which maps are current for this audit.
 
-Salary/date-screened role rows: **36**. Roles with a line map: **18**. Roles without a line map: **18**. Current mapped roles audited here: **18**.
+Salary/date-screened role rows: **36**. Roles with a line map: **19**. Roles without a line map: **17**. Current mapped roles audited here: **19**.
 
-Mapped test rows: **599**. Rows with an artifact link: **165**. Rows without one: **434**. Rows explicitly requiring candidate-supplied history or credentials: **43** (may overlap either link category).
+Mapped test rows: **637**. Rows with an artifact link: **171**. Rows without one: **466**. Rows explicitly requiring candidate-supplied history or credentials: **44** (may overlap either link category).
 
 | Current role map | Test rows | With artifact link | Without artifact link | Candidate verification rows |
 |---|---:|---:|---:|---:|
@@ -21,6 +21,7 @@ Mapped test rows: **599**. Rows with an artifact link: **165**. Rows without one
 | [openai-core-experimentation](job-maps/openai-core-experimentation.md) | 53 | 27 | 26 | 5 |
 | [openai-growth](job-maps/openai-growth.md) | 36 | 19 | 17 | 1 |
 | [openai-implicit-signals](job-maps/openai-implicit-signals.md) | 38 | 12 | 26 | 0 |
+| [openai-monetization-ai-ml](job-maps/openai-monetization-ai-ml.md) | 38 | 6 | 32 | 1 |
 | [openrouter-trust-safety](job-maps/openrouter-trust-safety.md) | 44 | 15 | 29 | 2 |
 | [replit-growth-data-scientist](job-maps/replit-growth-data-scientist.md) | 37 | 9 | 28 | 6 |
 | [spacexsi-eval-infrastructure](job-maps/spacexsi-eval-infrastructure.md) | 19 | 3 | 16 | 2 |
