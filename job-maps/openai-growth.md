@@ -47,4 +47,4 @@ The posting's SF hybrid schedule, compensation, equity, benefits, accommodations
 
 ## Immediate next proof work
 
-Build R07 policy backtesting, R10 production-style pipeline, and R11 quality/drift monitoring so the existing demonstrations move beyond isolated algorithms. Obtain the user's real work history before writing any employment-based proof or resume links.
+The [synthetic backtest](../projects/growth-backtest/) and [local decision service](../projects/growth-decision-service/) now provide partial evidence for R07, R10, and R11. Next, add defensible off-policy uncertainty analysis, a real data/training pipeline, deployment monitoring, canary/rollback, and drift/retraining criteria. Actual employment-based proof or resume links require the candidate's real work history.
