@@ -9,6 +9,7 @@ This repository turns job-post statements into small, inspectable projects. Most
 - [OpenAI — Machine Learning Engineer, Implicit Signals](https://jobs.ashbyhq.com/openai/a01fc9ed-de08-4326-9206-4ee3f08000dc): [line-by-line evidence map](job-maps/openai-implicit-signals.md).
 - [OpenAI — Machine Learning Engineer, Monetization AI/ML](https://jobs.ashbyhq.com/openai/80f9f564-d789-47bc-91c3-3babf5a1a33d): [line-by-line evidence map](job-maps/openai-monetization-ai-ml.md).
 - [Baseten — Post-Training Applied Researcher](https://jobs.ashbyhq.com/baseten/2d18b2aa-b6fc-4f1c-8936-33b03255a090): [line-by-line evidence map](job-maps/baseten-post-training-applied-researcher.md).
+- [Sierra — Software Engineer, Agent, Tech/Media/Telecom](https://jobs.ashbyhq.com/sierra/fd5df98a-e2c8-4d47-a803-daee5cccb36f): [line-by-line evidence map](job-maps/sierra-agent-tmt.md).
 - [OpenAI — Data Scientist, B2B Strategy & Intelligence](https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5): [line-by-line evidence map](job-maps/openai-b2b-data-scientist.md).
 - [Abridge — Software Engineer, Generative AI](https://jobs.ashbyhq.com/abridge/897709b2-e03d-4574-8611-5cfd669adde9): [line-by-line evidence map](job-maps/abridge-genai.md).
 - [Anthropic — ML/Research Engineer, Safeguards](https://job-boards.greenhouse.io/anthropic/jobs/4949336008): [line-by-line evidence map](job-maps/anthropic-safeguards.md).

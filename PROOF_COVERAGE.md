@@ -2,9 +2,9 @@
 
 This inventory checks **only whether a mapped test row links to an inspectable project or the candidate's existing public GitHub work**. One artifact may support several rows; this audit does not prove that every line has its own distinct project. A link can be partial, synthetic, inconclusive, or irrelevant to a production qualification; it does not establish that the test has been passed. The tool also cannot verify that every sentence of the live posting was mapped. [The role queue](job-maps/index.md) defines which maps are current for this audit.
 
-Salary/date-screened role rows: **36**. Roles with a line map: **20**. Roles without a line map: **16**. Current mapped roles audited here: **20**.
+Salary/date-screened role rows: **36**. Roles with a line map: **21**. Roles without a line map: **15**. Current mapped roles audited here: **21**.
 
-Mapped test rows: **679**. Rows with an artifact link: **180**. Rows without one: **499**. Rows explicitly requiring candidate-supplied history or credentials: **46** (may overlap either link category).
+Mapped test rows: **730**. Rows with an artifact link: **189**. Rows without one: **541**. Rows explicitly requiring candidate-supplied history or credentials: **52** (may overlap either link category).
 
 | Current role map | Test rows | With artifact link | Without artifact link | Candidate verification rows |
 |---|---:|---:|---:|---:|
@@ -25,6 +25,7 @@ Mapped test rows: **679**. Rows with an artifact link: **180**. Rows without one
 | [openai-monetization-ai-ml](job-maps/openai-monetization-ai-ml.md) | 38 | 7 | 31 | 1 |
 | [openrouter-trust-safety](job-maps/openrouter-trust-safety.md) | 44 | 15 | 29 | 2 |
 | [replit-growth-data-scientist](job-maps/replit-growth-data-scientist.md) | 37 | 9 | 28 | 6 |
+| [sierra-agent-tmt](job-maps/sierra-agent-tmt.md) | 51 | 9 | 42 | 6 |
 | [spacexsi-eval-infrastructure](job-maps/spacexsi-eval-infrastructure.md) | 19 | 3 | 16 | 2 |
 | [suno-content-discovery](job-maps/suno-content-discovery.md) | 39 | 12 | 27 | 5 |
 | [writer-ai-engineer](job-maps/writer-ai-engineer.md) | 24 | 8 | 16 | 1 |
