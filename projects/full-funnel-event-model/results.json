@@ -1,0 +1,84 @@
+{
+  "as_of": "2026-04-15T00:00:00Z",
+  "cohorts": [
+    {
+      "acquired": 1,
+      "acquisition_to_activation": 1.0,
+      "activated": 1,
+      "activation_to_expansion": 1.0,
+      "cohort_month": "2026-01",
+      "eligible_retention_rate": 1.0,
+      "expanded": 1,
+      "market": "US",
+      "retained": 1,
+      "retention_eligible": 1,
+      "segment": "business"
+    },
+    {
+      "acquired": 1,
+      "acquisition_to_activation": 1.0,
+      "activated": 1,
+      "activation_to_expansion": 0.0,
+      "cohort_month": "2026-01",
+      "eligible_retention_rate": 0.0,
+      "expanded": 0,
+      "market": "UK",
+      "retained": 0,
+      "retention_eligible": 1,
+      "segment": "consumer"
+    },
+    {
+      "acquired": 2,
+      "acquisition_to_activation": 0.5,
+      "activated": 1,
+      "activation_to_expansion": 1.0,
+      "cohort_month": "2026-01",
+      "eligible_retention_rate": 1.0,
+      "expanded": 1,
+      "market": "US",
+      "retained": 1,
+      "retention_eligible": 1,
+      "segment": "consumer"
+    },
+    {
+      "acquired": 1,
+      "acquisition_to_activation": 1.0,
+      "activated": 1,
+      "activation_to_expansion": 1.0,
+      "cohort_month": "2026-02",
+      "eligible_retention_rate": 1.0,
+      "expanded": 1,
+      "market": "UK",
+      "retained": 1,
+      "retention_eligible": 1,
+      "segment": "business"
+    },
+    {
+      "acquired": 1,
+      "acquisition_to_activation": 1.0,
+      "activated": 1,
+      "activation_to_expansion": 0.0,
+      "cohort_month": "2026-03",
+      "eligible_retention_rate": null,
+      "expanded": 0,
+      "market": "US",
+      "retained": 0,
+      "retention_eligible": 0,
+      "segment": "consumer"
+    }
+  ],
+  "definitions": {
+    "acquired": "first consented signup per user",
+    "activated": "consented core action within days 0-7 after signup",
+    "as_of_rule": "both event time and receipt time must be no later than as_of",
+    "deduplication": "latest received version of each event ID; exclude it if that version lacks consent",
+    "expanded": "activated user with consented upgrade after activation, within 90 days",
+    "retained": "eligible user with consented core action in days 30-59",
+    "retention_eligible": "activated user whose signup is at least 60 days old"
+  },
+  "input_audit": {
+    "events": 23,
+    "events_without_analytics_consent": 3,
+    "users": 7
+  }
+}
