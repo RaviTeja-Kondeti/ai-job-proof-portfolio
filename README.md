@@ -12,14 +12,16 @@ This repository turns job-post statements into small, inspectable projects. It u
 - [Firecrawl — Research Engineer, Benchmarks](https://jobs.ashbyhq.com/firecrawl/90f88e13-7d5f-43e2-a3fc-9e16d836b71c): [line-by-line evidence map](job-maps/firecrawl-benchmarks.md).
 - [Firecrawl — Agent Experience Engineer](https://jobs.ashbyhq.com/firecrawl/a81209e5-5e75-4ac8-905a-0df49891d61b): [line-by-line evidence map](job-maps/firecrawl-agent-experience.md).
 - [Glean — Senior/Staff Applied Scientist](https://job-boards.greenhouse.io/gleanwork/jobs/4740092005): [line-by-line evidence map](job-maps/glean-applied-scientist.md).
+- [Glean — Machine Learning Engineer, Search Quality](https://job-boards.greenhouse.io/gleanwork/jobs/4738120005): [line-by-line evidence map](job-maps/glean-search-quality.md).
 - [WRITER — AI Engineer](https://jobs.ashbyhq.com/writer/40f9e2b4-3284-4a20-b45d-0f5e5dd9108d): [line-by-line evidence map](job-maps/writer-ai-engineer.md).
 - [Cohere — MTS, Post-Training Data Infrastructure](https://jobs.ashbyhq.com/cohere/eef82766-7e31-430f-a102-bc33a5022597): [line-by-line evidence map](job-maps/cohere-post-training-data.md).
 - [SpaceXSI — MTS, Evaluation Infrastructure](https://job-boards.greenhouse.io/xai/jobs/5252714007): [line-by-line evidence map](job-maps/spacexsi-eval-infrastructure.md).
 - [Replit — Data Scientist, Growth](https://jobs.ashbyhq.com/replit/1066b974-3cd8-42cf-a11c-a4217c06f70f): [line-by-line evidence map](job-maps/replit-growth-data-scientist.md).
+- [Luma — Software Engineer, Inference](https://jobs.ashbyhq.com/lumaai/c4b9ff5f-40b2-40d4-9f6f-8b7aad9b8860): [line-by-line evidence map](job-maps/luma-inference.md).
 - [30-day, salary-filtered AI-first posting queue](job-maps/index.md).
 - [Eight-week proof plan](ROADMAP.md) for turning the highest-value gaps into linked evidence.
 - [Audit of existing public GitHub work](EXISTING_WORK_AUDIT.md), with fixed-commit links and evidence limits.
-- Built proof: [budget allocation](projects/budget-allocation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [experiment audit](projects/experiment-audit/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [B2B metrics](projects/b2b-metrics-layer/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), and [post-training data checks](projects/post-training-data/).
+- Built proof: [budget allocation](projects/budget-allocation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [experiment audit](projects/experiment-audit/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), and [post-training data checks](projects/post-training-data/).
 - The map labels unbuilt projects as **planned**. A plan is never presented as a completed proof link.
 
 ## Reproduce the proof
@@ -40,6 +42,7 @@ python3 -m unittest discover -s projects/experiment-audit -p 'test_*.py'
 python3 -m unittest discover -s projects/b2b-metrics-layer -p 'test_*.py'
 python3 -m unittest discover -s projects/agent-trajectory-eval -p 'test_*.py'
 python3 -m unittest discover -s projects/growth-decision-service -p 'test_*.py'
+python3 -m unittest discover -s projects/search-ranking-eval -p 'test_*.py'
 python3 projects/budget-allocation/allocate.py
 python3 projects/spend-pacing/pacing.py
 python3 projects/incrementality/experiment.py
@@ -51,6 +54,7 @@ python3 projects/post-training-data/build_dataset.py
 python3 projects/growth-backtest/backtest.py
 python3 projects/experiment-audit/audit.py
 python3 projects/b2b-metrics-layer/metrics.py
+python3 projects/search-ranking-eval/evaluate.py
 python3 projects/agent-trajectory-eval/evaluate.py
 ```
 
