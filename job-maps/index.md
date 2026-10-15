@@ -24,12 +24,10 @@ Among the closest-overlap roles, only the listed OpenAI MLE Growth, MLE Implicit
 
 | First or last published | Company and direct posting | US annual base | Main condition |
 |---|---|---:|---|
-| Sep 28 | Anthropic — [Staff+ SWE, Account Abuse (ML)](https://job-boards.greenhouse.io/anthropic/jobs/5436293008) | $320k–$485k | Staff+ production fraud/abuse ML, feature correctness, low-latency scoring |
 | Oct 2 | Anthropic — [Staff Research Engineer, Multi-Agent Scaling](https://job-boards.greenhouse.io/anthropic/jobs/5442680008) | $500k–$850k | Large-scale agent systems and substantial end-to-end research/engineering ownership |
 | Sep 28 | Anthropic — [Applied AI Engineer, Life Sciences](https://job-boards.greenhouse.io/anthropic/jobs/5437172008) | $280k–$320k | Deep life-sciences or scientific-computing experience |
 | Sep 24 | OpenAI — [MLE, Core Experimentation](https://jobs.ashbyhq.com/openai/9d4d2727-27f3-4a63-857c-a96466130645) | $437k–$485k | Technical lead for a new ML-powered experimentation capability |
 | Sep 21 | OpenAI — [MLE, Monetization AI/ML](https://jobs.ashbyhq.com/openai/80f9f564-d789-47bc-91c3-3babf5a1a33d) | $381k–$555k | Graduate degree and deep learning/transformer training preferred |
-| Oct 9 | OpenAI — [SWE, API Agents](https://jobs.ashbyhq.com/openai/a6ab3111-7092-4da2-a7a6-71e01351bfda) | $266k–$445k | 7+ years of backend/platform engineering specified |
 | Sep 24 | Mercor — [SWE, Systems & Platform Applied AI](https://jobs.ashbyhq.com/mercor/374cd009-516f-4a1f-abbf-bcca5287daae) | $220k–$500k | Strong backend services and operational ownership; very broad band |
 | Sep 18 | Mercor — [Research Scientist, Environments/Data/Post-Training](https://jobs.ashbyhq.com/mercor/1dcab154-b92d-4a5f-aed5-b1b8c049cdbc) | $250k–$500k | Hands-on frontier model research and post-training |
 | Oct 7 | Baseten — [Post-Training Applied Researcher](https://jobs.ashbyhq.com/baseten/2d18b2aa-b6fc-4f1c-8936-33b03255a090) | $200k–$275k | Hands-on LLM RL, reward engineering, and customer-facing research |
@@ -37,7 +35,6 @@ Among the closest-overlap roles, only the listed OpenAI MLE Growth, MLE Implicit
 | Sep 28 | Decagon — [Staff SWE, Agent Product](https://jobs.ashbyhq.com/decagon/508a6226-4ee4-4cfa-8a9c-04d48bef81a8) | $200k–$400k | Staff-level product and agent engineering |
 | Oct 5 | Modal — [MTS, Inference Runtime](https://jobs.ashbyhq.com/modal/6195f552-ca6f-4540-b7f6-e7e6054e47ad) | $220k–$300k | Low-level inference/runtime systems |
 | Sep 25 | Replit — [Staff SWE, Agentic Ads](https://jobs.ashbyhq.com/replit/4df82fb0-0bcb-4034-89ce-09e679b00fe7) | $250k–$360k | Staff-level software engineering and ads systems |
-| Sep 29 | OpenAI — [Applied AI Engineer, API Platform](https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae) | $251k–$278k | Requires **8+ years** hands-on technical experience and customer-facing production leadership |
 | Oct 13 | Replit — [Data Scientist, Growth](https://jobs.ashbyhq.com/replit/1066b974-3cd8-42cf-a11c-a4217c06f70f) | $210k–$327k | Posting requires **6+ years** in data science, including significant growth or experimentation work; user reports about 5 years total. [Map](replit-growth-data-scientist.md) |
 | Sep 25 | Glean — [MLE, Search Quality](https://job-boards.greenhouse.io/gleanwork/jobs/4738120005) | $140k–$265k | 2+ years and search/NLP; only top $15k of band clears pay target. [Map](glean-search-quality.md) |
 | Sep 22 | Firecrawl — [Agent Experience Engineer](https://jobs.ashbyhq.com/firecrawl/a81209e5-5e75-4ac8-905a-0df49891d61b) | $235k–$260k SF | 5+ years and shipped product engineering for agent-facing surfaces; only top $10k clears target. [Map](firecrawl-agent-experience.md) |
@@ -54,6 +51,12 @@ Among the closest-overlap roles, only the listed OpenAI MLE Growth, MLE Implicit
 | Oct 1 | Exa — [Research Engineer, Content Understanding](https://jobs.ashbyhq.com/exa/508f3b2e-980b-41e9-ae02-26c72ce6b775) | $180k–$350k | Master's/PhD plus 2+ years or exceptional undergrad; transformer-from-scratch and efficient web-scale document models unverified. [Map](exa-content-understanding.md) |
 | Sep 21 | OpenRouter — [SWE, Trust & Safety](https://jobs.ashbyhq.com/openrouter/cd5340a1-e787-4916-abb8-a08ab1bb229b) | $215k–$285k | 4+ years production systems, React/TypeScript/Next.js, abuse/risk operations; broad ML/AI tenure alone is insufficient. [Map](openrouter-trust-safety.md) |
 | Oct 8 | Fireworks AI — [MTS, Growth](https://jobs.ashbyhq.com/fireworks/307c8122-b318-47af-b913-bcdb5d264685) | $200k–$290k | 5+ years shipped user-facing products and full-stack TypeScript/React/Go; growth ML interest alone is insufficient |
+
+## Explicit tenure mismatch in a full application check
+
+- Sep 28 — Anthropic, [Staff+ SWE, Account Abuse (ML)](https://job-boards.greenhouse.io/anthropic/jobs/5436293008), $320k–$485k annual salary. The application explicitly asks whether the candidate has **8+ years of relevant experience**. The user reports about five years, so this is outside the current-match queue unless their actual work history materially changes that fact. The role's structured-data fraud ML overlaps some stated skills, but portfolio projects cannot create the missing years.
+- Oct 9 — OpenAI, [SWE, API Agents](https://jobs.ashbyhq.com/openai/a6ab3111-7092-4da2-a7a6-71e01351bfda), $266k–$445k base. The employer asks for **7+ years of professional engineering experience**, excluding internships, specifically in backend, infrastructure, platform, or product engineering.
+- Sep 29 — OpenAI, [Applied AI Engineer, API Platform](https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae), $251k–$278k base. The employer asks for **8+ years of deep, hands-on technical experience** and customer-facing leadership.
 
 ## Scope and exclusions
 
