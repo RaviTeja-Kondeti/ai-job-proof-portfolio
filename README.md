@@ -13,6 +13,7 @@ This repository turns job-post statements into small, inspectable projects. Most
 - [Handshake AI — Member of Technical Staff, AI Engineering](https://jobs.ashbyhq.com/handshake/08651bf1-c977-49d4-9a82-e8a770bb9970): [line-by-line evidence map](job-maps/handshake-ai-engineering.md).
 - [Handshake AI — Member of Technical Staff, Post-Training](https://jobs.ashbyhq.com/handshake/5fd7dcf2-d2a2-4d82-bc8a-82d701768b43): [line-by-line evidence map](job-maps/handshake-post-training.md).
 - [Handshake AI — Member of Technical Staff, Evals](https://jobs.ashbyhq.com/handshake/ca392442-69eb-46f5-b367-37e43c832094): [line-by-line evidence map](job-maps/handshake-evals.md).
+- [Handshake AI — Member of Technical Staff, Coding Agents](https://jobs.ashbyhq.com/handshake/fb47a304-2ea1-4971-81cd-5183619f9a81): [line-by-line evidence map](job-maps/handshake-coding-agents.md).
 - [OpenAI — Data Scientist, B2B Strategy & Intelligence](https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5): [line-by-line evidence map](job-maps/openai-b2b-data-scientist.md).
 - [Abridge — Software Engineer, Generative AI](https://jobs.ashbyhq.com/abridge/897709b2-e03d-4574-8611-5cfd669adde9): [line-by-line evidence map](job-maps/abridge-genai.md).
 - [Anthropic — ML/Research Engineer, Safeguards](https://job-boards.greenhouse.io/anthropic/jobs/4949336008): [line-by-line evidence map](job-maps/anthropic-safeguards.md).
