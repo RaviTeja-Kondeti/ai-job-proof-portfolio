@@ -6,7 +6,7 @@ Each candidate-facing signal below is read as a test. A **built** link is a narr
 
 | Posting line or signal | The test hidden in it | One small project / state |
 |---|---|---|
-| Music creation is for everyone | Does discovery work for new, sparse-history, and niche users? | **Built, synthetic:** [cold-start and niche-user slices](../projects/music-discovery-eval/); real-user fairness remains planned. |
+| Music creation is for everyone | Does discovery work for new, sparse-history, and niche users? | **Built, partial:** [synthetic niche slices](../projects/music-discovery-eval/) and [historical-rating warm/cold slices](../projects/movielens-temporal-eval/); real music-user fairness remains planned. |
 | Casual creators and professional musicians both use the platform | Can quality be evaluated by creator/listener segment? | **Planned:** segment-specific discovery benchmark with agreed relevance criteria. |
 | Fast growth and millions of users | Can recommendation serving scale without losing quality? | **Planned:** throughput/latency benchmark with an SLO and capacity model. |
 | Small team, ambition, quality, ownership, intensity | Can one owner turn an unclear goal into a shipped, reviewed outcome? | **Planned:** end-to-end recommendation RFC, implementation, test, and retrospective. |
@@ -17,14 +17,14 @@ Each candidate-facing signal below is read as a test. A **built** link is a narr
 | Formulate user preference mathematically | Does a user representation predict held-out interest? | **Built, toy:** [smoothed genre affinity](../projects/music-discovery-eval/); **planned:** trained preference model. |
 | Model item similarity | Does a track embedding find related music and avoid trivial duplicates? | **Planned:** content/collaborative similarity benchmark. |
 | Model engagement | Do click, listen, completion, and return signals align with satisfaction? | **Planned:** engagement-label and delayed-outcome study. |
-| Sparse interaction data | Does the approach behave sensibly with little user history? | **Built, toy:** [sparse-history and cold-start cases](../projects/music-discovery-eval/). |
+| Sparse interaction data | Does the approach behave sensibly with little user history? | **Built, partial:** [synthetic sparse-history cases](../projects/music-discovery-eval/) and [real-rating cold-user fallback](../projects/movielens-temporal-eval/). |
 | Noisy interaction data | Can accidental listens and bots be handled? | **Planned:** feedback-noise stress test and robust estimator. |
 | Evolving user taste | Can preference updates track drift without unstable recommendations? | **Planned:** time-decayed preference replay. |
-| Build recommendation models | Can a learned model beat popularity on a frozen holdout? | **Planned:** trained collaborative/content ranker; [current heuristic](../projects/music-discovery-eval/) is not a learned model. |
+| Build recommendation models | Can a learned model beat popularity on a frozen holdout? | **Built, narrow:** [shrunken item/user/genre model on historical movie ratings](../projects/movielens-temporal-eval/); improvement is **inconclusive** and music-specific modeling remains planned. |
 | Deploy recommendation models | Is serving versioned, observable, and rollback-ready? | **Planned:** model-serving API with canary and rollback exercise; past production ownership requires candidate evidence. |
 | Real-time latency constraints | Is p95 latency met under realistic traffic? | **Planned:** load test of candidate generation and ranking. |
 | Throughput constraints | Does the system meet requests per second under load and backpressure? | **Planned:** throughput/cost benchmark. |
-| Relevance as an objective | Does the ranker improve a defined held-out ranking measure? | **Built, synthetic:** [NDCG@3 comparison](../projects/music-discovery-eval/); not real lift. |
+| Relevance as an objective | Does the ranker improve a defined held-out ranking measure? | **Built, limited:** [synthetic NDCG@3](../projects/music-discovery-eval/) and [observed-item NDCG@10 on historical ratings](../projects/movielens-temporal-eval/); neither estimates online lift. |
 | Novelty as an objective | Does it expose unfamiliar but fitting tracks? | **Planned:** novelty metric and controlled tradeoff study. |
 | Diversity as an objective | Can ranking avoid monotony without damaging relevance? | **Built, synthetic:** [genre-diversity metric](../projects/music-discovery-eval/). |
 | Long-term satisfaction as an objective | Do users return and remain satisfied beyond one session? | **Planned:** delayed-outcome metric and retention experiment. |
@@ -34,7 +34,7 @@ Each candidate-facing signal below is read as a test. A **built** link is a narr
 | Evaluate model behavior and product impact | Can offline wins be checked against online outcomes? | **Planned:** offline-to-online validation and launch memo. |
 | Collaborate with product and research leaders | Can ambiguous personalization goals become an agreed technical direction? | **Planned:** stakeholder problem statement, metric contract, and design review. |
 | Master's/PhD or equivalent practical experience | Is education or equivalent work documented? | **Candidate verification:** resume, degree, and actual work history. |
-| Python proficiency | Can a reviewer run readable implementation and tests? | **Built, small:** [stdlib Python evaluator and tests](../projects/music-discovery-eval/). |
+| Python proficiency | Can a reviewer run readable implementation and tests? | **Built, small:** [synthetic evaluator](../projects/music-discovery-eval/) and [public-data temporal evaluator](../projects/movielens-temporal-eval/) with tests. |
 | Modern ML framework such as PyTorch | Can a model be trained and reproduced? | **Planned:** PyTorch ranker with frozen data and model card; framework history unverified. |
 | Implement and iterate on research ideas | Does a hypothesis survive ablations and failure inspection? | **Planned:** research reproduction with ablation log. |
 | Data pipelines and cloud such as Spark/AWS | Can events be processed without leakage or duplicates? | **Planned:** batch/stream feature pipeline with data-quality checks; cloud history unverified. |

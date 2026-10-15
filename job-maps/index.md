@@ -17,7 +17,7 @@ Among the closest-overlap roles, only the listed OpenAI MLE Growth, MLE Implicit
 | Sep 30 | OpenAI — [Data Scientist, B2B Strategy & Intelligence](https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5) | $347k–$510k | Senior-level B2B/GTM analytics and executive decisions | [Mapped; history unverified](openai-b2b-data-scientist.md) |
 | Oct 14 | Cohere — [MTS, Post-Training Data Infrastructure](https://jobs.ashbyhq.com/cohere/eef82766-7e31-430f-a102-bc33a5022597) | $205k–$380k in CA/NY/WA; $175k–$325k elsewhere | Large-scale ML data pipelines and distributed inference | [Mapped; scale history unverified](cohere-post-training-data.md) |
 | Sep 22 | WRITER — [AI Engineer](https://jobs.ashbyhq.com/writer/40f9e2b4-3284-4a20-b45d-0f5e5dd9108d) | $198k–$259k | 5+ years shipping production AI/ML; narrow margin over pay target | [Mapped; partial proofs](writer-ai-engineer.md) |
-| Oct 2 | Suno — [Senior/Staff MLE, Content Discovery](https://jobs.ashbyhq.com/suno/e94b6a03-6315-45c2-a439-51630af15f05) | $241,200–$382,935 | Recommendation/ranking, 0→1 production ML, and experimentation; degree or equivalent, experience unverified | [Mapped; synthetic ranking proof](suno-content-discovery.md) |
+| Oct 2 | Suno — [Senior/Staff MLE, Content Discovery](https://jobs.ashbyhq.com/suno/e94b6a03-6315-45c2-a439-51630af15f05) | $241,200–$382,935 | Recommendation/ranking, 0→1 production ML, and experimentation; degree or equivalent, experience unverified | [Mapped; synthetic and public-rating evaluation](suno-content-discovery.md) |
 
 ## Conditional or stretch roles
 
