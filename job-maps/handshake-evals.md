@@ -31,7 +31,7 @@ Every substantive team, role, responsibility, qualification, and motivation line
 | E21 | Make evaluations representative | Does sampling cover actual task frequency and severity? | **Planned:** sampling-frame and severity-weight analysis. |
 | E22 | Make evaluations difficult | Can trivial shortcuts be detected and removed? | **Planned:** difficulty and contamination challenge set. |
 | E23 | Make evaluations reliable | Do repeated runs and raters agree sufficiently? | **Planned:** stochastic-run and inter-rater variance study. |
-| E24 | Resist shortcutting and reward hacking | Does a policy exploit the metric without solving the task? | **Planned:** reward-hacking red-team case with repaired verifier. |
+| E24 | Resist shortcutting and reward hacking | Does a policy exploit the metric without solving the task? | **Built, synthetic:** [proxy reward exploit and exact-verifier comparison](../projects/reward-proxy-stress/); representative agent attacks remain planned. |
 | E25 | Design high-quality expert tasks | Can experts produce unambiguous, consequential examples? | **Planned:** expert task authoring guide with blind review. |
 | E26 | Design annotation methodologies | Is disagreement measured and adjudicated? | **Planned:** double-label annotation study and sensitivity analysis. |
 | E27 | Track data quality and attribution | Can each benchmark item be traced to its source and rights? | **Planned:** source/label provenance manifest. |

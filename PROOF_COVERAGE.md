@@ -4,11 +4,11 @@ This inventory checks **only whether a mapped test row links to an inspectable p
 
 Salary/date-screened role rows: **40**. Roles with a line map: **25**. Roles without a line map: **15**. Current mapped roles audited here: **25**.
 
-Mapped test rows: **881**. Rows with an artifact link: **218**. Rows without one: **663**. Rows explicitly requiring candidate-supplied history or credentials: **69** (may overlap either link category).
+Mapped test rows: **881**. Rows with an artifact link: **221**. Rows without one: **660**. Rows explicitly requiring candidate-supplied history or credentials: **69** (may overlap either link category).
 
 | Current role map | Test rows | With artifact link | Without artifact link | Candidate verification rows |
 |---|---:|---:|---:|---:|
-| [baseten-post-training-applied-researcher](job-maps/baseten-post-training-applied-researcher.md) | 42 | 7 | 35 | 2 |
+| [baseten-post-training-applied-researcher](job-maps/baseten-post-training-applied-researcher.md) | 42 | 9 | 33 | 2 |
 | [cartesia-data-infrastructure](job-maps/cartesia-data-infrastructure.md) | 33 | 4 | 29 | 2 |
 | [cohere-post-training-data](job-maps/cohere-post-training-data.md) | 23 | 7 | 16 | 2 |
 | [exa-content-understanding](job-maps/exa-content-understanding.md) | 35 | 2 | 33 | 1 |
@@ -19,7 +19,7 @@ Mapped test rows: **881**. Rows with an artifact link: **218**. Rows without one
 | [glean-search-quality](job-maps/glean-search-quality.md) | 28 | 7 | 21 | 4 |
 | [handshake-ai-engineering](job-maps/handshake-ai-engineering.md) | 43 | 13 | 30 | 4 |
 | [handshake-coding-agents](job-maps/handshake-coding-agents.md) | 25 | 2 | 23 | 4 |
-| [handshake-evals](job-maps/handshake-evals.md) | 37 | 5 | 32 | 3 |
+| [handshake-evals](job-maps/handshake-evals.md) | 37 | 6 | 31 | 3 |
 | [handshake-post-training](job-maps/handshake-post-training.md) | 46 | 9 | 37 | 6 |
 | [luma-inference](job-maps/luma-inference.md) | 25 | 2 | 23 | 3 |
 | [openai-b2b-data-scientist](job-maps/openai-b2b-data-scientist.md) | 33 | 4 | 29 | 4 |
