@@ -4,7 +4,7 @@ This inventory checks **only whether a mapped test row links to an inspectable p
 
 Salary/date-screened role rows: **36**. Roles with a line map: **18**. Roles without a line map: **18**. Current mapped roles audited here: **18**.
 
-Mapped test rows: **599**. Rows with an artifact link: **160**. Rows without one: **439**. Rows explicitly requiring candidate-supplied history or credentials: **43** (may overlap either link category).
+Mapped test rows: **599**. Rows with an artifact link: **165**. Rows without one: **434**. Rows explicitly requiring candidate-supplied history or credentials: **43** (may overlap either link category).
 
 | Current role map | Test rows | With artifact link | Without artifact link | Candidate verification rows |
 |---|---:|---:|---:|---:|
@@ -20,7 +20,7 @@ Mapped test rows: **599**. Rows with an artifact link: **160**. Rows without one
 | [openai-b2b-data-scientist](job-maps/openai-b2b-data-scientist.md) | 33 | 4 | 29 | 4 |
 | [openai-core-experimentation](job-maps/openai-core-experimentation.md) | 53 | 27 | 26 | 5 |
 | [openai-growth](job-maps/openai-growth.md) | 36 | 19 | 17 | 1 |
-| [openai-implicit-signals](job-maps/openai-implicit-signals.md) | 38 | 7 | 31 | 0 |
+| [openai-implicit-signals](job-maps/openai-implicit-signals.md) | 38 | 12 | 26 | 0 |
 | [openrouter-trust-safety](job-maps/openrouter-trust-safety.md) | 44 | 15 | 29 | 2 |
 | [replit-growth-data-scientist](job-maps/replit-growth-data-scientist.md) | 37 | 9 | 28 | 6 |
 | [spacexsi-eval-infrastructure](job-maps/spacexsi-eval-infrastructure.md) | 19 | 3 | 16 | 2 |

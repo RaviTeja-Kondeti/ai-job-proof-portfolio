@@ -1,6 +1,6 @@
 # AI job proof portfolio
 
-This repository turns job-post statements into small, inspectable projects. It uses synthetic data so the code and results can be shared publicly. It does **not** claim that these simulations represent work performed for an employer.
+This repository turns job-post statements into small, inspectable projects. Most use synthetic data; a few use attributed public datasets with the data downloaded separately. It does **not** claim that these demonstrations represent work performed for an employer.
 
 ## Current source and status
 
@@ -28,12 +28,12 @@ This repository turns job-post statements into small, inspectable projects. It u
 - [Proof-link coverage and remaining gaps](PROOF_COVERAGE.md), with a reproducible audit script.
 - [Eight-week proof plan](ROADMAP.md) for turning the highest-value gaps into linked evidence.
 - [Audit of existing public GitHub work](EXISTING_WORK_AUDIT.md), with fixed-commit links and evidence limits.
-- Built proof: [budget allocation](projects/budget-allocation/), [marginal-return estimation](projects/marginal-return-estimation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [conversion and value forecasting](projects/conversion-value-forecast/), [experiment audit](projects/experiment-audit/), [historical-experiment evidence retrieval](projects/experiment-insight-retrieval/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [index selection](projects/index-selection-eval/), [music discovery evaluation](projects/music-discovery-eval/), [public-rating temporal evaluation](projects/movielens-temporal-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [abuse review workflow](projects/abuse-review-workflow/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), and [post-training data checks](projects/post-training-data/).
+- Built proof: [budget allocation](projects/budget-allocation/), [marginal-return estimation](projects/marginal-return-estimation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [conversion and value forecasting](projects/conversion-value-forecast/), [experiment audit](projects/experiment-audit/), [historical-experiment evidence retrieval](projects/experiment-insight-retrieval/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [index selection](projects/index-selection-eval/), [music discovery evaluation](projects/music-discovery-eval/), [public-rating temporal evaluation](projects/movielens-temporal-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [abuse review workflow](projects/abuse-review-workflow/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), [real-data shopper classifier](projects/shopper-behavior-classifier/), and [post-training data checks](projects/post-training-data/).
 - The map labels unbuilt projects as **planned**. A plan is never presented as a completed proof link.
 
 ## Reproduce the proof
 
-Python 3.10+ and its standard library are sufficient:
+Python 3.10+ and its standard library are sufficient for the projects below. The shopper classifier additionally uses NumPy; see its [reproduction instructions](projects/shopper-behavior-classifier/README.md).
 
 ```sh
 python3 -m unittest discover -s projects/budget-allocation -p 'test_*.py'
