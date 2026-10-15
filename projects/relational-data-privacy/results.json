@@ -1,0 +1,120 @@
+{
+  "audit": {
+    "age_decade_retained_fraction": 0.4444444444444444,
+    "customers": 9,
+    "minimum_quasi_cell_ignoring_tokens_and_orders": 2,
+    "orders": 12,
+    "orphan_orders": 0,
+    "revenue_cents_preserved": true,
+    "state_retained_fraction": 0.7777777777777778
+  },
+  "customers": [
+    {
+      "age_decade": "*",
+      "customer_token": "9b6df8de7d0fd3376f5b1fb3",
+      "state": "CA"
+    },
+    {
+      "age_decade": "*",
+      "customer_token": "215c32c0ddc490376c0b2b64",
+      "state": "CA"
+    },
+    {
+      "age_decade": "*",
+      "customer_token": "eb5eeabdcfc3830e7d381a78",
+      "state": "CA"
+    },
+    {
+      "age_decade": "20",
+      "customer_token": "fa40fdda23721a643ab602b3",
+      "state": "NY"
+    },
+    {
+      "age_decade": "20",
+      "customer_token": "60521317e6972ff67a8ffa53",
+      "state": "NY"
+    },
+    {
+      "age_decade": "40",
+      "customer_token": "d503b6f265a5ed974b504d8a",
+      "state": "NY"
+    },
+    {
+      "age_decade": "40",
+      "customer_token": "6f96671f504ef7bbd7cbd281",
+      "state": "NY"
+    },
+    {
+      "age_decade": "*",
+      "customer_token": "9b9649b7f93d16b9ccb9c979",
+      "state": "*"
+    },
+    {
+      "age_decade": "*",
+      "customer_token": "f7313ccb4905a93b3d74792e",
+      "state": "*"
+    }
+  ],
+  "orders": [
+    {
+      "amount_cents": 125,
+      "customer_token": "9b6df8de7d0fd3376f5b1fb3",
+      "order_token": "6eedf59cfb2d7192d4b40650"
+    },
+    {
+      "amount_cents": 250,
+      "customer_token": "215c32c0ddc490376c0b2b64",
+      "order_token": "2ac612e8d6f6986b1bfb3233"
+    },
+    {
+      "amount_cents": 375,
+      "customer_token": "eb5eeabdcfc3830e7d381a78",
+      "order_token": "cf984ade3b01ac13eeba9768"
+    },
+    {
+      "amount_cents": 500,
+      "customer_token": "fa40fdda23721a643ab602b3",
+      "order_token": "e9d37641c6c9d073b806bdd1"
+    },
+    {
+      "amount_cents": 625,
+      "customer_token": "60521317e6972ff67a8ffa53",
+      "order_token": "5fbc828a5487b598176161ab"
+    },
+    {
+      "amount_cents": 750,
+      "customer_token": "d503b6f265a5ed974b504d8a",
+      "order_token": "d03ddb4c7b5a3747a680f139"
+    },
+    {
+      "amount_cents": 875,
+      "customer_token": "6f96671f504ef7bbd7cbd281",
+      "order_token": "c2fbd19ba0aa170594f20e4b"
+    },
+    {
+      "amount_cents": 1000,
+      "customer_token": "9b9649b7f93d16b9ccb9c979",
+      "order_token": "aab11267ffd7e5f500cb94ed"
+    },
+    {
+      "amount_cents": 1125,
+      "customer_token": "f7313ccb4905a93b3d74792e",
+      "order_token": "4e8d80633349e260f4dcec6c"
+    },
+    {
+      "amount_cents": 1250,
+      "customer_token": "9b6df8de7d0fd3376f5b1fb3",
+      "order_token": "222b770e550dc33384a256d2"
+    },
+    {
+      "amount_cents": 1375,
+      "customer_token": "215c32c0ddc490376c0b2b64",
+      "order_token": "1f567b33386c18fa94863dba"
+    },
+    {
+      "amount_cents": 1500,
+      "customer_token": "eb5eeabdcfc3830e7d381a78",
+      "order_token": "ad2c06f63019b376b8d4a8db"
+    }
+  ]
+}

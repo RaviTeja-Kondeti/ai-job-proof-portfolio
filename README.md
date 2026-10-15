@@ -10,6 +10,7 @@ This repository turns job-post statements into small, inspectable projects. Most
 - [OpenAI — Machine Learning Engineer, Monetization AI/ML](https://jobs.ashbyhq.com/openai/80f9f564-d789-47bc-91c3-3babf5a1a33d): [line-by-line evidence map](job-maps/openai-monetization-ai-ml.md).
 - [Baseten — Post-Training Applied Researcher](https://jobs.ashbyhq.com/baseten/2d18b2aa-b6fc-4f1c-8936-33b03255a090): [line-by-line evidence map](job-maps/baseten-post-training-applied-researcher.md).
 - [Sierra — Software Engineer, Agent, Tech/Media/Telecom](https://jobs.ashbyhq.com/sierra/fd5df98a-e2c8-4d47-a803-daee5cccb36f): [line-by-line evidence map](job-maps/sierra-agent-tmt.md).
+- [Handshake AI — Member of Technical Staff, AI Engineering](https://jobs.ashbyhq.com/handshake/08651bf1-c977-49d4-9a82-e8a770bb9970): [line-by-line evidence map](job-maps/handshake-ai-engineering.md).
 - [OpenAI — Data Scientist, B2B Strategy & Intelligence](https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5): [line-by-line evidence map](job-maps/openai-b2b-data-scientist.md).
 - [Abridge — Software Engineer, Generative AI](https://jobs.ashbyhq.com/abridge/897709b2-e03d-4574-8611-5cfd669adde9): [line-by-line evidence map](job-maps/abridge-genai.md).
 - [Anthropic — ML/Research Engineer, Safeguards](https://job-boards.greenhouse.io/anthropic/jobs/4949336008): [line-by-line evidence map](job-maps/anthropic-safeguards.md).
@@ -31,7 +32,7 @@ This repository turns job-post statements into small, inspectable projects. Most
 - [Proof-link coverage and remaining gaps](PROOF_COVERAGE.md), with a reproducible audit script.
 - [Eight-week proof plan](ROADMAP.md) for turning the highest-value gaps into linked evidence.
 - [Audit of existing public GitHub work](EXISTING_WORK_AUDIT.md), with fixed-commit links and evidence limits.
-- Built proof: [budget allocation](projects/budget-allocation/), [marginal-return estimation](projects/marginal-return-estimation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [conversion and value forecasting](projects/conversion-value-forecast/), [experiment audit](projects/experiment-audit/), [historical-experiment evidence retrieval](projects/experiment-insight-retrieval/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [contextual ads policy](projects/contextual-ads-policy/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [index selection](projects/index-selection-eval/), [music discovery evaluation](projects/music-discovery-eval/), [public-rating temporal evaluation](projects/movielens-temporal-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [abuse review workflow](projects/abuse-review-workflow/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), [real-data shopper classifier](projects/shopper-behavior-classifier/), and [post-training data checks](projects/post-training-data/).
+- Built proof: [budget allocation](projects/budget-allocation/), [marginal-return estimation](projects/marginal-return-estimation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [conversion and value forecasting](projects/conversion-value-forecast/), [experiment audit](projects/experiment-audit/), [historical-experiment evidence retrieval](projects/experiment-insight-retrieval/), [growth backtesting](projects/growth-backtest/), [growth decision service](projects/growth-decision-service/), [contextual ads policy](projects/contextual-ads-policy/), [relational data privacy](projects/relational-data-privacy/), [B2B metrics](projects/b2b-metrics-layer/), [search ranking evaluation](projects/search-ranking-eval/), [index selection](projects/index-selection-eval/), [music discovery evaluation](projects/music-discovery-eval/), [public-rating temporal evaluation](projects/movielens-temporal-eval/), [LLM output evaluation](projects/llm-evaluation/), [agent trajectory evaluation](projects/agent-trajectory-eval/), [abuse review workflow](projects/abuse-review-workflow/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), [real-data shopper classifier](projects/shopper-behavior-classifier/), and [post-training data checks](projects/post-training-data/).
 - The map labels unbuilt projects as **planned**. A plan is never presented as a completed proof link.
 
 ## Reproduce the proof
@@ -61,6 +62,7 @@ python3 -m unittest discover -s projects/abuse-review-workflow -p 'test_*.py'
 python3 -m unittest discover -s projects/marginal-return-estimation -p 'test_*.py'
 python3 -m unittest discover -s projects/experiment-insight-retrieval -p 'test_*.py'
 python3 -m unittest discover -s projects/contextual-ads-policy -p 'test_*.py'
+python3 -m unittest discover -s projects/relational-data-privacy -p 'test_*.py'
 python3 projects/budget-allocation/allocate.py
 python3 projects/spend-pacing/pacing.py
 python3 projects/incrementality/experiment.py
@@ -80,6 +82,7 @@ python3 projects/abuse-review-workflow/workflow.py
 python3 projects/marginal-return-estimation/estimate.py
 python3 projects/experiment-insight-retrieval/insights.py
 python3 projects/contextual-ads-policy/policy.py
+python3 projects/relational-data-privacy/deidentify.py
 python3 projects/agent-trajectory-eval/evaluate.py
 ```
 
