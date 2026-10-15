@@ -13,8 +13,8 @@ Each substantive candidate-evaluating line, including the company and AI-workflo
 | Outcomes include faster onboarding, productivity, safer decisions | Are claims linked to measurable business and safety outcomes? | **Planned:** user-outcome metric tree and causal validation plan. |
 | Widely used enterprise integrations and trust | Can quality and access controls survive realistic workflows? | **Planned:** integration workflow evaluation with security guardrails. |
 | Data organization spans product DS, applied science, DE, BI | Can collaborators share stable definitions? | **Planned:** cross-team metric contract and ownership map. |
-| Improve online A/B techniques and process | Do experiments lead to rigorous decisions? | **Built, narrow:** [synthetic randomized incrementality example](../projects/incrementality/); **planned:** experiment quality toolkit. |
-| Maintain an A/B platform from stakeholder feedback | Can new features be adopted safely by teams? | **Planned:** experiment-platform service with feedback and change log. |
+| Improve online A/B techniques and process | Do experiments lead to rigorous decisions? | **Built, synthetic:** [experiment validity audit](../projects/experiment-audit/) and [incrementality example](../projects/incrementality/); production platform remains planned. |
+| Maintain an A/B platform from stakeholder feedback | Can new features be adopted safely by teams? | **Built, narrow component:** [auditable validity checks](../projects/experiment-audit/); platform service and stakeholder feedback remain planned. |
 | Code or select vendors for scalable, usable methods | Can a build-versus-buy choice serve non-specialists? | **Planned:** vendor assessment, API prototype, and usability study. |
 | Evaluate document/URL upload use cases end to end | Can generated eval data, criteria, and interpretation be defended? | **Built, partial:** [synthetic LLM evaluation](../projects/llm-evaluation/); **planned:** upload-to-answer evaluation. |
 | Decompose end-to-end evals into skills | Can failure location be identified, not just final score? | **Planned:** task-level error attribution harness. |
@@ -23,7 +23,7 @@ Each substantive candidate-evaluating line, including the company and AI-workflo
 | Evaluate tool choice and use | Are incorrect and unnecessary calls penalized? | **Planned:** tool-selection and execution benchmark. |
 | Evaluate coding and system design | Can success be checked beyond plausibility? | **Planned:** executable coding tests and design rubric. |
 | Own query-intent classification best practices | Are labels and error slices trustworthy? | **Built, partial:** [classifier diagnostic gate](../projects/classifier-evaluation/); **planned:** intent model and label audit. |
-| Handle stochastic LLM results statistically | Are conclusions stable across samples and seeds? | **Planned:** repeated-run LLM evaluation with intervals and power analysis. |
+| Handle stochastic LLM results statistically | Are conclusions stable across samples and seeds? | **Built, supporting:** [statistical experiment audit](../projects/experiment-audit/) for non-LLM outcomes; repeated-run LLM evaluation remains planned. |
 | Industry benchmarking | Is comparison fair, reproducible, and public? | **Built, toy:** [provider benchmark scaffold](../projects/provider-benchmarks/); **planned:** real benchmark release. |
 | Required quantitative graduate degree and years | Can credentials and tenure be verified? | **Candidate verification:** degree, dates, and actual work history; no portfolio substitute. |
 | Statistics/ML improve products and internal tools pragmatically | Can a technique change a user decision under time pressure? | **Planned:** before/after product decision case study. |

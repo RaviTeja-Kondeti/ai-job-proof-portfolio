@@ -10,7 +10,7 @@ Use roughly one focused hour per day. Every role map identifies **all substantiv
 | 4 | Inference performance and safe rollout | Load-test batching/cache variants, p95 latency, throughput, compute/cost estimate, canary gate | [OpenAI Implicit Signals](job-maps/openai-implicit-signals.md): serving and operations |
 | 5 | First real public provider benchmark | Independent dated ground truth, frozen sample, fair adapter contract, uncertainty intervals, replayable release | [Firecrawl Benchmarks](job-maps/firecrawl-benchmarks.md): central shipped-work test |
 | 6 | Vendor-challenge and leaderboard release | Public methods page, downloadable rows, dispute protocol, correction log, second dated run | [Firecrawl Benchmarks](job-maps/firecrawl-benchmarks.md): scrutiny and weekly publication |
-| 7 | Experimentation and stochastic LLM evaluation toolkit | A/B quality checks, power/intervals, repeated LLM runs, task-level failure analysis, written decision | [Glean Applied Scientist](job-maps/glean-applied-scientist.md) |
+| 7 | Experimentation and stochastic LLM evaluation toolkit | **Started:** [synthetic A/B validity audit](projects/experiment-audit/). Still needs power/intervals, repeated LLM runs, task-level failures, and a written decision. | [Glean Applied Scientist](job-maps/glean-applied-scientist.md) |
 | 8 | Post-training data pipeline and grounded agent integration | Provenance, versioned SFT/preference/RL records, quality gates, schema tests, agent evaluation and runbook | [Cohere Data Infrastructure](job-maps/cohere-post-training-data.md) and [WRITER AI Engineer](job-maps/writer-ai-engineer.md) |
 
 ## Rules for each weekly release
