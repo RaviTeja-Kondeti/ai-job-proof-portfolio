@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "claim": {
+        "attempt": 1,
+        "lease_until": 10,
+        "payload": {
+          "document": "synthetic-a"
+        },
+        "task_id": "extract-1"
+      }
+    },
+    {
+      "backpressure": true
+    },
+    {
+      "failure": {
+        "retry_at": 2,
+        "status": "retry"
+      }
+    }
+  ],
+  "final": {
+    "cost_microusd": 440,
+    "status_counts": {
+      "done": 2
+    },
+    "tokens": 22
+  }
+}
