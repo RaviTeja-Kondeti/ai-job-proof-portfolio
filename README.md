@@ -15,7 +15,7 @@ This repository turns job-post statements into small, inspectable projects. It u
 - [Cohere — MTS, Post-Training Data Infrastructure](https://jobs.ashbyhq.com/cohere/eef82766-7e31-430f-a102-bc33a5022597): [line-by-line evidence map](job-maps/cohere-post-training-data.md).
 - [30-day, salary-filtered AI-first posting queue](job-maps/index.md).
 - [Eight-week proof plan](ROADMAP.md) for turning the highest-value gaps into linked evidence.
-- Built proof: [budget allocation](projects/budget-allocation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [LLM output evaluation](projects/llm-evaluation/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), and [post-training data checks](projects/post-training-data/).
+- Built proof: [budget allocation](projects/budget-allocation/), [spend pacing](projects/spend-pacing/), [incrementality](projects/incrementality/), [growth backtesting](projects/growth-backtest/), [LLM output evaluation](projects/llm-evaluation/), [prompt-injection screening](projects/prompt-injection-screen/), [provider benchmarks](projects/provider-benchmarks/), [classifier evaluation](projects/classifier-evaluation/), and [post-training data checks](projects/post-training-data/).
 - The map labels unbuilt projects as **planned**. A plan is never presented as a completed proof link.
 
 ## Reproduce the proof
@@ -31,6 +31,7 @@ python3 -m unittest discover -s projects/prompt-injection-screen -p 'test_*.py'
 python3 -m unittest discover -s projects/provider-benchmarks -p 'test_*.py'
 python3 -m unittest discover -s projects/classifier-evaluation -p 'test_*.py'
 python3 -m unittest discover -s projects/post-training-data -p 'test_*.py'
+python3 -m unittest discover -s projects/growth-backtest -p 'test_*.py'
 python3 projects/budget-allocation/allocate.py
 python3 projects/spend-pacing/pacing.py
 python3 projects/incrementality/experiment.py
@@ -39,6 +40,7 @@ python3 projects/prompt-injection-screen/screen.py
 python3 projects/provider-benchmarks/benchmark.py
 python3 projects/classifier-evaluation/evaluate.py
 python3 projects/post-training-data/build_dataset.py
+python3 projects/growth-backtest/backtest.py
 ```
 
 Each project has its own assumptions, failure cases, and output. The job map links to the relevant proof. The repository is a portfolio demonstration, not a claim of production impact or employment history.

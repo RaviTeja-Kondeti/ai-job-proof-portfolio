@@ -4,7 +4,7 @@ Use roughly one focused hour per day. Every role map identifies **all substantiv
 
 | Week | Ship one reviewable project | Acceptance evidence | Primary role tests |
 |---|---|---|---|
-| 1 | Growth policy backtester | Frozen synthetic/historical-like periods, baseline comparison, budget and efficiency constraints, uncertainty analysis, runnable report | [OpenAI Growth](job-maps/openai-growth.md): allocation, simulation, incrementality |
+| 1 | Growth policy backtester | **Started:** [synthetic delayed-signal comparison](projects/growth-backtest/) with budget and change limits. Still needs uncertainty analysis and defensible off-policy evaluation. | [OpenAI Growth](job-maps/openai-growth.md): allocation, simulation, incrementality |
 | 2 | Production-style growth decision service | Data validation, versioned model/policy, API, observability, canary and rollback rehearsal | [OpenAI Growth](job-maps/openai-growth.md): end-to-end ownership, reliability |
 | 3 | Trained behavior classifier and evaluation set | Clear label guide, held-out/OOD splits, calibration, confidence intervals, slice failures, decision memo | [OpenAI Implicit Signals](job-maps/openai-implicit-signals.md): supervised learning and rigorous evaluation |
 | 4 | Inference performance and safe rollout | Load-test batching/cache variants, p95 latency, throughput, compute/cost estimate, canary gate | [OpenAI Implicit Signals](job-maps/openai-implicit-signals.md): serving and operations |
