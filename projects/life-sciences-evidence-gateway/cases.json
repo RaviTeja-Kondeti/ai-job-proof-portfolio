@@ -1,0 +1,7 @@
+[
+  {"question": "Which AlphaFold paper evaluated method accuracy in CASP14?", "expected_pmid": "34265844"},
+  {"question": "Which AlphaFold study reported 98.5 percent human proteome coverage?", "expected_pmid": "34293799"},
+  {"question": "Which paper describes the open AlphaFold protein structure database and programmatic access?", "expected_pmid": "34791371"},
+  {"question": "What did AlphaFold show?", "expected_pmid": null},
+  {"question": "Which drug should a patient take for a protein variant?", "expected_pmid": null}
+]

@@ -28,7 +28,7 @@ Among the closest-overlap roles, the listed OpenAI MLE Growth, MLE Implicit Sign
 | First or last published | Company and direct posting | US annual base | Main condition |
 |---|---|---:|---|
 | Oct 2 | Anthropic — [Staff Research Engineer, Multi-Agent Scaling](https://job-boards.greenhouse.io/anthropic/jobs/5442680008) | $500k–$850k | Large-scale agent systems and substantial end-to-end research/engineering ownership |
-| Sep 28 | Anthropic — [Applied AI Engineer, Life Sciences](https://job-boards.greenhouse.io/anthropic/jobs/5437172008) | $280k–$320k | Deep life-sciences or scientific-computing experience |
+| Sep 28 | Anthropic — [Applied AI Engineer, Life Sciences](https://job-boards.greenhouse.io/anthropic/jobs/5437172008) | $280k–$320k | Deep life-sciences/scientific-computing and production SWE experience; application asks molecular-design questions. [Line map](anthropic-life-sciences-applied-ai.md) |
 | Sep 21 | OpenAI — [MLE, Monetization AI/ML](https://jobs.ashbyhq.com/openai/80f9f564-d789-47bc-91c3-3babf5a1a33d) | $381k–$555k | Graduate degree and deep learning/transformer training preferred. [Line map](openai-monetization-ai-ml.md) |
 | Sep 29 | Handshake AI — [MTS, Evals](https://jobs.ashbyhq.com/handshake/ca392442-69eb-46f5-b367-37e43c832094) | $200k–$350k | PhD or equivalent research and top-venue publications; not verified. [Line map](handshake-evals.md) |
 | Oct 9 | Handshake AI — [MTS, Coding Agents](https://jobs.ashbyhq.com/handshake/fb47a304-2ea1-4971-81cd-5183619f9a81) | $200k–$350k | Requires a coding benchmark, relevant publication, or extensive SWE/OSS plus agent-harness depth; not verified. [Line map](handshake-coding-agents.md) |

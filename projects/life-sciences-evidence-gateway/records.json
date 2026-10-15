@@ -1,0 +1,26 @@
+[
+  {
+    "pmid": "34265844",
+    "title": "Highly accurate protein structure prediction with AlphaFold",
+    "year": 2021,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34265844/",
+    "terms": ["alphafold", "casp14", "method validation", "protein structure prediction"],
+    "evidence_note": "The authors report evaluating AlphaFold in CASP14 and describe its protein-structure prediction accuracy relative to experimental structures."
+  },
+  {
+    "pmid": "34293799",
+    "title": "Highly accurate protein structure prediction for the human proteome",
+    "year": 2021,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34293799/",
+    "terms": ["alphafold", "human proteome", "98.5 percent", "residue confidence"],
+    "evidence_note": "The authors report predicted structures covering 98.5% of human proteins, with 58% of residues in confident predictions."
+  },
+  {
+    "pmid": "34791371",
+    "title": "AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models",
+    "year": 2022,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34791371/",
+    "terms": ["alphafold", "protein structure database", "programmatic access", "open database"],
+    "evidence_note": "The authors describe an openly accessible database of predicted protein structures with programmatic access."
+  }
+]

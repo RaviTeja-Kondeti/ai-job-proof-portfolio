@@ -2,12 +2,13 @@
 
 This inventory checks **only whether a mapped test row links to an inspectable project or the candidate's existing public GitHub work**. One artifact may support several rows; this audit does not prove that every line has its own distinct project. A link can be partial, synthetic, inconclusive, or irrelevant to a production qualification; it does not establish that the test has been passed. The tool also cannot verify that every sentence of the live posting was mapped. [The role queue](job-maps/index.md) defines which maps are current for this audit.
 
-Salary/date-screened role rows: **40**. Roles with a line map: **27**. Roles without a line map: **13**. Current mapped roles audited here: **27**.
+Salary/date-screened role rows: **40**. Roles with a line map: **28**. Roles without a line map: **12**. Current mapped roles audited here: **28**.
 
-Mapped test rows: **970**. Rows with an artifact link: **255**. Rows without one: **715**. Rows explicitly requiring candidate-supplied history or credentials: **76** (may overlap either link category).
+Mapped test rows: **1012**. Rows with an artifact link: **268**. Rows without one: **744**. Rows explicitly requiring candidate-supplied history or credentials: **83** (may overlap either link category).
 
 | Current role map | Test rows | With artifact link | Without artifact link | Candidate verification rows |
 |---|---:|---:|---:|---:|
+| [anthropic-life-sciences-applied-ai](job-maps/anthropic-life-sciences-applied-ai.md) | 42 | 13 | 29 | 7 |
 | [baseten-post-training-applied-researcher](job-maps/baseten-post-training-applied-researcher.md) | 42 | 9 | 33 | 2 |
 | [cartesia-data-infrastructure](job-maps/cartesia-data-infrastructure.md) | 33 | 4 | 29 | 2 |
 | [cohere-post-training-data](job-maps/cohere-post-training-data.md) | 23 | 7 | 16 | 2 |

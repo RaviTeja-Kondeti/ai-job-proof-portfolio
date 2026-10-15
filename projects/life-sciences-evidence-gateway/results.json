@@ -1,0 +1,90 @@
+{
+  "accuracy": 1.0,
+  "case_count": 5,
+  "cases": [
+    {
+      "actual_pmid": "34265844",
+      "correct": true,
+      "expected_pmid": "34265844",
+      "question": "Which AlphaFold paper evaluated method accuracy in CASP14?",
+      "result": {
+        "evidence_note": "The authors report evaluating AlphaFold in CASP14 and describe its protein-structure prediction accuracy relative to experimental structures.",
+        "matched_terms": [
+          "alphafold",
+          "casp14",
+          "method"
+        ],
+        "pmid": "34265844",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/34265844/",
+        "status": "cited_record",
+        "title": "Highly accurate protein structure prediction with AlphaFold",
+        "year": 2021
+      }
+    },
+    {
+      "actual_pmid": "34293799",
+      "correct": true,
+      "expected_pmid": "34293799",
+      "question": "Which AlphaFold study reported 98.5 percent human proteome coverage?",
+      "result": {
+        "evidence_note": "The authors report predicted structures covering 98.5% of human proteins, with 58% of residues in confident predictions.",
+        "matched_terms": [
+          "98.5",
+          "alphafold",
+          "human",
+          "percent",
+          "proteome"
+        ],
+        "pmid": "34293799",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/34293799/",
+        "status": "cited_record",
+        "title": "Highly accurate protein structure prediction for the human proteome",
+        "year": 2021
+      }
+    },
+    {
+      "actual_pmid": "34791371",
+      "correct": true,
+      "expected_pmid": "34791371",
+      "question": "Which paper describes the open AlphaFold protein structure database and programmatic access?",
+      "result": {
+        "evidence_note": "The authors describe an openly accessible database of predicted protein structures with programmatic access.",
+        "matched_terms": [
+          "access",
+          "alphafold",
+          "database",
+          "open",
+          "programmatic",
+          "protein",
+          "structure"
+        ],
+        "pmid": "34791371",
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/34791371/",
+        "status": "cited_record",
+        "title": "AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models",
+        "year": 2022
+      }
+    },
+    {
+      "actual_pmid": null,
+      "correct": true,
+      "expected_pmid": null,
+      "question": "What did AlphaFold show?",
+      "result": {
+        "reason": "unsupported or ambiguous",
+        "status": "abstain"
+      }
+    },
+    {
+      "actual_pmid": null,
+      "correct": true,
+      "expected_pmid": null,
+      "question": "Which drug should a patient take for a protein variant?",
+      "result": {
+        "reason": "unsupported or ambiguous",
+        "status": "abstain"
+      }
+    }
+  ],
+  "record_count": 3
+}
