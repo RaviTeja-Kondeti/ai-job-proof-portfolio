@@ -1,0 +1,28 @@
+[
+  {
+    "id": "synthetic_001",
+    "facts": [
+      {"id": "f1", "concept": "symptom", "value": "cough for three days"},
+      {"id": "f2", "concept": "fever", "value": "denied"},
+      {"id": "f3", "concept": "medication", "value": "none reported"}
+    ],
+    "expected_concepts": ["symptom", "fever", "medication"],
+    "candidate_claims": [
+      {"concept": "symptom", "value": "cough for three days", "citations": ["f1"]},
+      {"concept": "fever", "value": "denied", "citations": ["f2"]},
+      {"concept": "medication", "value": "none reported", "citations": ["f3"]}
+    ]
+  },
+  {
+    "id": "synthetic_002",
+    "facts": [
+      {"id": "f1", "concept": "symptom", "value": "headache"},
+      {"id": "f2", "concept": "allergy", "value": "penicillin"}
+    ],
+    "expected_concepts": ["symptom", "allergy"],
+    "candidate_claims": [
+      {"concept": "symptom", "value": "headache", "citations": ["f1"]},
+      {"concept": "diagnosis", "value": "migraine", "citations": ["f1"]}
+    ]
+  }
+]
