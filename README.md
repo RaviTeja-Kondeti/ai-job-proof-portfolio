@@ -20,6 +20,8 @@ This repository turns job-post statements into small, inspectable projects. It u
 - [Luma — Software Engineer, Inference](https://jobs.ashbyhq.com/lumaai/c4b9ff5f-40b2-40d4-9f6f-8b7aad9b8860): [line-by-line evidence map](job-maps/luma-inference.md).
 - [Suno — Senior/Staff MLE, Content Discovery](https://jobs.ashbyhq.com/suno/e94b6a03-6315-45c2-a439-51630af15f05): [line-by-line evidence map](job-maps/suno-content-discovery.md).
 - [Exa — Research Engineer, Index Intelligence](https://jobs.ashbyhq.com/exa/67310301-d019-4290-9c79-e8d6e70d5d50): [line-by-line evidence map](job-maps/exa-index-intelligence.md).
+- [Exa — Research Engineer, Content Understanding](https://jobs.ashbyhq.com/exa/508f3b2e-980b-41e9-ae02-26c72ce6b775): [line-by-line evidence map](job-maps/exa-content-understanding.md).
+- [Cartesia — Research Engineer, Data Infrastructure](https://jobs.ashbyhq.com/cartesia/6ca9b352-6a7b-42a3-a7c4-8f071712db90): [line-by-line evidence map](job-maps/cartesia-data-infrastructure.md).
 - [30-day, salary-filtered AI-first posting queue](job-maps/index.md).
 - [Eight-week proof plan](ROADMAP.md) for turning the highest-value gaps into linked evidence.
 - [Audit of existing public GitHub work](EXISTING_WORK_AUDIT.md), with fixed-commit links and evidence limits.
