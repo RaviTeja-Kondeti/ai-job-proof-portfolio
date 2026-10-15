@@ -1,0 +1,74 @@
+{
+  "data": "fixed synthetic catalog and four synthetic topics",
+  "policies": {
+    "bid_only": {
+      "aggregate_counters": {
+        "consenting_requests": 4,
+        "served_ads": 4
+      },
+      "cases": [
+        {
+          "ad_id": "high-bid-generic",
+          "bid": 5.0,
+          "relevance": 0.5850000000000001,
+          "topic": "coding"
+        },
+        {
+          "ad_id": "high-bid-generic",
+          "bid": 5.0,
+          "relevance": 0.5850000000000001,
+          "topic": "education"
+        },
+        {
+          "ad_id": "high-bid-generic",
+          "bid": 5.0,
+          "relevance": 0.5850000000000001,
+          "topic": "music"
+        },
+        {
+          "ad_id": "high-bid-generic",
+          "bid": 5.0,
+          "relevance": 0.5850000000000001,
+          "topic": "travel"
+        }
+      ],
+      "mean_bid": 5.0,
+      "mean_relevance": 0.5850000000000001
+    },
+    "contextual": {
+      "aggregate_counters": {
+        "consenting_requests": 4,
+        "served_ads": 4
+      },
+      "cases": [
+        {
+          "ad_id": "a-coding",
+          "bid": 1.1,
+          "relevance": 0.9,
+          "topic": "coding"
+        },
+        {
+          "ad_id": "a-education",
+          "bid": 1.2,
+          "relevance": 0.86,
+          "topic": "education"
+        },
+        {
+          "ad_id": "a-music",
+          "bid": 1.3,
+          "relevance": 0.88,
+          "topic": "music"
+        },
+        {
+          "ad_id": "a-travel",
+          "bid": 1.4,
+          "relevance": 0.84,
+          "topic": "travel"
+        }
+      ],
+      "mean_bid": 1.25,
+      "mean_relevance": 0.87
+    }
+  },
+  "privacy_contract": "context-only request; no user ID, history, demographic, or denied-consent measurement"
+}

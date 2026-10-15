@@ -4,7 +4,7 @@ This inventory checks **only whether a mapped test row links to an inspectable p
 
 Salary/date-screened role rows: **36**. Roles with a line map: **19**. Roles without a line map: **17**. Current mapped roles audited here: **19**.
 
-Mapped test rows: **637**. Rows with an artifact link: **171**. Rows without one: **466**. Rows explicitly requiring candidate-supplied history or credentials: **44** (may overlap either link category).
+Mapped test rows: **637**. Rows with an artifact link: **173**. Rows without one: **464**. Rows explicitly requiring candidate-supplied history or credentials: **44** (may overlap either link category).
 
 | Current role map | Test rows | With artifact link | Without artifact link | Candidate verification rows |
 |---|---:|---:|---:|---:|
@@ -19,9 +19,9 @@ Mapped test rows: **637**. Rows with an artifact link: **171**. Rows without one
 | [luma-inference](job-maps/luma-inference.md) | 25 | 2 | 23 | 3 |
 | [openai-b2b-data-scientist](job-maps/openai-b2b-data-scientist.md) | 33 | 4 | 29 | 4 |
 | [openai-core-experimentation](job-maps/openai-core-experimentation.md) | 53 | 27 | 26 | 5 |
-| [openai-growth](job-maps/openai-growth.md) | 36 | 19 | 17 | 1 |
+| [openai-growth](job-maps/openai-growth.md) | 36 | 20 | 16 | 1 |
 | [openai-implicit-signals](job-maps/openai-implicit-signals.md) | 38 | 12 | 26 | 0 |
-| [openai-monetization-ai-ml](job-maps/openai-monetization-ai-ml.md) | 38 | 6 | 32 | 1 |
+| [openai-monetization-ai-ml](job-maps/openai-monetization-ai-ml.md) | 38 | 7 | 31 | 1 |
 | [openrouter-trust-safety](job-maps/openrouter-trust-safety.md) | 44 | 15 | 29 | 2 |
 | [replit-growth-data-scientist](job-maps/replit-growth-data-scientist.md) | 37 | 9 | 28 | 6 |
 | [spacexsi-eval-infrastructure](job-maps/spacexsi-eval-infrastructure.md) | 19 | 3 | 16 | 2 |

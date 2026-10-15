@@ -10,7 +10,7 @@ Each substantive line of the employer's team, role, responsibility, qualificatio
 |---|---|---|---|
 | M01 | New group spans engineering, product, research, and design | Can a model effort work across those interfaces? | **Planned:** one-page cross-functional model brief with decisions and owner handoffs. |
 | M02 | Build foundational monetization systems | Can primitives support more than one ad or offer workflow? | **Planned:** versioned eligibility, ranking, and measurement contract demo. |
-| M03 | User-first, privacy-preserving ads | Can useful ranking work under consent and data-minimization constraints? | **Planned:** consent-aware contextual ad ranker with prohibited-feature checks. |
+| M03 | User-first, privacy-preserving ads | Can useful ranking work under consent and data-minimization constraints? | **Built, synthetic and partial:** [context-only ranker with prohibited-field and consent tests](../projects/contextual-ads-policy/); real user value and privacy compliance unproven. |
 | M04 | Strengthen trust and economic opportunity | Are user and advertiser outcomes measured alongside revenue? | **Planned:** two-sided welfare scorecard and failure cases. |
 | M05 | Monetization must fund AI access responsibly | Can a revenue objective be constrained by user experience? | **Planned:** constrained optimization study with explicit user-value floor. |
 | M06 | Uphold rigorous privacy and safety standards | Are sensitive attributes, retention, and unsafe ads controlled? | **Planned:** privacy and safety threat model plus executable policy checks. |
