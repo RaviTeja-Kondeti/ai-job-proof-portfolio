@@ -2,9 +2,9 @@
 
 This inventory checks **only whether a mapped test row links to an inspectable project or the candidate's existing public GitHub work**. One artifact may support several rows; this audit does not prove that every line has its own distinct project. A link can be partial, synthetic, inconclusive, or irrelevant to a production qualification; it does not establish that the test has been passed. The tool also cannot verify that every sentence of the live posting was mapped. [The role queue](job-maps/index.md) defines which maps are current for this audit.
 
-Salary/date-screened role rows: **36**. Roles with a line map: **17**. Roles without a line map: **19**. Current mapped roles audited here: **17**.
+Salary/date-screened role rows: **36**. Roles with a line map: **18**. Roles without a line map: **18**. Current mapped roles audited here: **18**.
 
-Mapped test rows: **546**. Rows with an artifact link: **133**. Rows without one: **413**. Rows explicitly requiring candidate-supplied history or credentials: **38** (may overlap either link category).
+Mapped test rows: **599**. Rows with an artifact link: **160**. Rows without one: **439**. Rows explicitly requiring candidate-supplied history or credentials: **43** (may overlap either link category).
 
 | Current role map | Test rows | With artifact link | Without artifact link | Candidate verification rows |
 |---|---:|---:|---:|---:|
@@ -18,6 +18,7 @@ Mapped test rows: **546**. Rows with an artifact link: **133**. Rows without one
 | [glean-search-quality](job-maps/glean-search-quality.md) | 28 | 7 | 21 | 4 |
 | [luma-inference](job-maps/luma-inference.md) | 25 | 2 | 23 | 3 |
 | [openai-b2b-data-scientist](job-maps/openai-b2b-data-scientist.md) | 33 | 4 | 29 | 4 |
+| [openai-core-experimentation](job-maps/openai-core-experimentation.md) | 53 | 27 | 26 | 5 |
 | [openai-growth](job-maps/openai-growth.md) | 36 | 19 | 17 | 1 |
 | [openai-implicit-signals](job-maps/openai-implicit-signals.md) | 38 | 7 | 31 | 0 |
 | [openrouter-trust-safety](job-maps/openrouter-trust-safety.md) | 44 | 15 | 29 | 2 |

@@ -4,7 +4,7 @@
 
 Date evidence came from employer ATS feeds: [Ashby's public posting API](https://developers.ashbyhq.com/docs/public-job-posting-api) exposes `publishedAt` (**last published**, so a republished older role can appear recent), while [Greenhouse's public board API](https://developers.greenhouse.io/job-board.html) exposes `first_published`. Search-engine crawl dates were not used as posting dates. Apply links and pay should be rechecked before an application.
 
-Among the closest-overlap roles, only the listed OpenAI MLE Growth, MLE Implicit Signals, and B2B Strategy & Intelligence ranges **start above $250k**. Firecrawl starts at exactly $250k; Glean, Cohere, and WRITER reach above $250k only within their bands. A posted range does not predict an individual offer.
+Among the closest-overlap roles, the listed OpenAI MLE Growth, MLE Implicit Signals, MLE Core Experimentation, and B2B Strategy & Intelligence ranges **start above $250k**. Firecrawl starts at exactly $250k; Glean, Cohere, and WRITER reach above $250k only within their bands. A posted range does not predict an individual offer.
 
 ## Closest work overlap to inspect first
 
@@ -12,6 +12,7 @@ Among the closest-overlap roles, only the listed OpenAI MLE Growth, MLE Implicit
 |---|---|---:|---|---|
 | Oct 13 | OpenAI — [MLE, Implicit Signals](https://jobs.ashbyhq.com/openai/a01fc9ed-de08-4326-9206-4ee3f08000dc) | $381k–$510k | Production classifiers, calibration, model serving | [Mapped; evaluation proof](openai-implicit-signals.md) |
 | Oct 13 | OpenAI — [MLE, Growth](https://openai.com/careers/machine-learning-engineer-growth-san-francisco/) | $381k–$423k | Optimization, control, causal growth measurement | [Mapped; partial algorithm, forecast, and service proofs](openai-growth.md) |
+| Sep 24 | OpenAI — [MLE, Core Experimentation](https://openai.com/careers/machine-learning-engineer-core-experimentation-seattle/) | $437k–$485k | ML/retrieval/statistics/simulation; 0→1 technical leadership and production ownership unverified | [Mapped; synthetic evidence retrieval](openai-core-experimentation.md) |
 | Sep 29 | Firecrawl — [Research Engineer, Benchmarks](https://jobs.ashbyhq.com/firecrawl/90f88e13-7d5f-43e2-a3fc-9e16d836b71c) | $250k–$290k in SF | 4+ years and **previously shipped** benchmark/evaluation work | [Mapped; toy prototype only](firecrawl-benchmarks.md) |
 | Oct 5 | Glean — [Senior/Staff Applied Scientist](https://job-boards.greenhouse.io/gleanwork/jobs/4740092005) | $180k–$330k | Master's plus 5+ years or PhD plus 3+; degree unverified | [Mapped; several partial proofs](glean-applied-scientist.md) |
 | Sep 30 | OpenAI — [Data Scientist, B2B Strategy & Intelligence](https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5) | $347k–$510k | Senior-level B2B/GTM analytics and executive decisions | [Mapped; history unverified](openai-b2b-data-scientist.md) |
@@ -26,7 +27,6 @@ Among the closest-overlap roles, only the listed OpenAI MLE Growth, MLE Implicit
 |---|---|---:|---|
 | Oct 2 | Anthropic — [Staff Research Engineer, Multi-Agent Scaling](https://job-boards.greenhouse.io/anthropic/jobs/5442680008) | $500k–$850k | Large-scale agent systems and substantial end-to-end research/engineering ownership |
 | Sep 28 | Anthropic — [Applied AI Engineer, Life Sciences](https://job-boards.greenhouse.io/anthropic/jobs/5437172008) | $280k–$320k | Deep life-sciences or scientific-computing experience |
-| Sep 24 | OpenAI — [MLE, Core Experimentation](https://jobs.ashbyhq.com/openai/9d4d2727-27f3-4a63-857c-a96466130645) | $437k–$485k | Technical lead for a new ML-powered experimentation capability |
 | Sep 21 | OpenAI — [MLE, Monetization AI/ML](https://jobs.ashbyhq.com/openai/80f9f564-d789-47bc-91c3-3babf5a1a33d) | $381k–$555k | Graduate degree and deep learning/transformer training preferred |
 | Sep 24 | Mercor — [SWE, Systems & Platform Applied AI](https://jobs.ashbyhq.com/mercor/374cd009-516f-4a1f-abbf-bcca5287daae) | $220k–$500k | Strong backend services and operational ownership; very broad band |
 | Sep 18 | Mercor — [Research Scientist, Environments/Data/Post-Training](https://jobs.ashbyhq.com/mercor/1dcab154-b92d-4a5f-aed5-b1b8c049cdbc) | $250k–$500k | Hands-on frontier model research and post-training |

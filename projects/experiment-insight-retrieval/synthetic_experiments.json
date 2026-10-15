@@ -1,0 +1,16 @@
+{
+  "experiments": [
+    {"id": "e1", "source_ref": "synthetic/run/e1", "dataset_version": "v1", "end_day": 450, "scope": "growth", "intervention": "onboarding_hint", "metric": "activation_7d", "segment": "business", "effect": 0.03, "standard_error": 0.01, "validity_passed": true, "randomized": true},
+    {"id": "e2", "source_ref": "synthetic/run/e2", "dataset_version": "v2", "end_day": 455, "scope": "growth", "intervention": "onboarding_hint", "metric": "activation_7d", "segment": "business", "effect": 0.02, "standard_error": 0.01, "validity_passed": true, "randomized": true},
+    {"id": "e3", "source_ref": "synthetic/restricted/e3", "dataset_version": "v1", "end_day": 460, "scope": "sensitive", "intervention": "onboarding_hint", "metric": "activation_7d", "segment": "business", "effect": 0.5, "standard_error": 0.001, "validity_passed": true, "randomized": true},
+    {"id": "e4", "source_ref": "synthetic/run/e4", "dataset_version": "v1", "end_day": 470, "scope": "growth", "intervention": "onboarding_hint", "metric": "retention_30d", "segment": "consumer", "effect": 0.04, "standard_error": 0.01, "validity_passed": true, "randomized": true},
+    {"id": "e5", "source_ref": "synthetic/run/e5", "dataset_version": "v1", "end_day": 475, "scope": "growth", "intervention": "onboarding_hint", "metric": "retention_30d", "segment": "consumer", "effect": -0.04, "standard_error": 0.01, "validity_passed": true, "randomized": true},
+    {"id": "e6", "source_ref": "synthetic/run/e6", "dataset_version": "v1", "end_day": 100, "scope": "growth", "intervention": "onboarding_hint", "metric": "activation_7d", "segment": "business", "effect": 0.09, "standard_error": 0.01, "validity_passed": true, "randomized": true},
+    {"id": "e7", "source_ref": "synthetic/run/e7", "dataset_version": "v1", "end_day": 480, "scope": "growth", "intervention": "onboarding_hint", "metric": "activation_7d", "segment": "business", "effect": 0.08, "standard_error": 0.01, "validity_passed": false, "randomized": true}
+  ],
+  "queries": [
+    {"scope": "growth", "intervention": "onboarding_hint", "metric": "activation_7d", "segment": "business"},
+    {"scope": "growth", "intervention": "onboarding_hint", "metric": "retention_30d", "segment": "consumer"},
+    {"scope": "growth", "intervention": "new_pricing", "metric": "retention_30d", "segment": "business"}
+  ]
+}

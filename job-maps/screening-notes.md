@@ -24,6 +24,7 @@ A further 28 Ashby board slugs were attempted across AI infrastructure, voice, s
 | [Glean Agentic Runtime Engineer](https://job-boards.greenhouse.io/gleanwork/jobs/4742953005) | Agent overlap, but its $180k–$210k base band does not reach the user's target. |
 | [Sierra Agent Strategist, Flagship Deployment](https://jobs.ashbyhq.com/sierra/15f81581-ad9c-4b03-8ed7-097fbbce0469) | 10+ years enterprise customer-facing experience and strategic account ownership; excluded from closest-fit group. |
 | [Replit Staff Agentic Commerce](https://jobs.ashbyhq.com/replit/22e99380-e48c-4bc3-a870-721411b22957) | Strong salary floor, but requires staff-level commerce and payments architecture plus secure agent transactions. |
+| [OpenAI MLE, Core Experimentation](https://openai.com/careers/machine-learning-engineer-core-experimentation-seattle/) | $437k–$485k base and strong ML/retrieval/experimentation overlap, with no explicit higher year minimum in the role text. Its central requirement is technical direction for a 0→1 production ML platform; actual leadership and operating history are unverified. The careers heading says Seattle while the text identifies a Bellevue office. |
 
 ## Date and source limits
 
