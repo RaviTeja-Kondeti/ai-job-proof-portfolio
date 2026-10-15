@@ -4,6 +4,8 @@
 
 Date evidence came from employer ATS feeds: [Ashby's public posting API](https://developers.ashbyhq.com/docs/public-job-posting-api) exposes `publishedAt` (**last published**, so a republished older role can appear recent), while [Greenhouse's public board API](https://developers.greenhouse.io/job-board.html) exposes `first_published`. Search-engine crawl dates were not used as posting dates. Apply links and pay should be rechecked before an application.
 
+Among the closest-overlap roles, only the listed OpenAI MLE Growth, MLE Implicit Signals, and B2B Strategy & Intelligence ranges **start above $250k**. Firecrawl starts at exactly $250k; Glean, Cohere, and WRITER reach above $250k only within their bands. A posted range does not predict an individual offer.
+
 ## Closest work overlap to inspect first
 
 | First or last published | Company and direct posting | US annual base | Qualification to verify | Evidence map |
@@ -11,11 +13,10 @@ Date evidence came from employer ATS feeds: [Ashby's public posting API](https:/
 | Oct 13 | OpenAI — [MLE, Implicit Signals](https://jobs.ashbyhq.com/openai/a01fc9ed-de08-4326-9206-4ee3f08000dc) | $381k–$510k | Production classifiers, calibration, model serving | [Mapped; evaluation proof](openai-implicit-signals.md) |
 | Oct 13 | OpenAI — [MLE, Growth](https://openai.com/careers/machine-learning-engineer-growth-san-francisco/) | $381k–$423k | Optimization, control, causal growth measurement | [Mapped; 3 initial proofs](openai-growth.md) |
 | Sep 29 | Firecrawl — [Research Engineer, Benchmarks](https://jobs.ashbyhq.com/firecrawl/90f88e13-7d5f-43e2-a3fc-9e16d836b71c) | $250k–$290k in SF | 4+ years and **previously shipped** benchmark/evaluation work | [Mapped; toy prototype only](firecrawl-benchmarks.md) |
-| Oct 5 | Glean — [Senior/Staff Applied Scientist](https://job-boards.greenhouse.io/gleanwork/jobs/4740092005) | $180k–$330k | Master's plus 5+ years or PhD plus 3+; experimentation and LLM evals | Pending |
-| Sep 29 | OpenAI — [Applied AI Engineer, API Platform](https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae) | $251k–$278k | Customer-facing production LLM systems and evals | Pending |
-| Sep 30 | OpenAI — [Data Scientist, B2B Strategy & Intelligence](https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5) | $347k–$510k | Senior-level B2B/GTM analytics and executive decisions | Pending |
-| Oct 14 | Cohere — [MTS, Post-Training Data Infrastructure](https://jobs.ashbyhq.com/cohere/eef82766-7e31-430f-a102-bc33a5022597) | $205k–$380k in CA/NY/WA; $175k–$325k elsewhere | Large-scale ML data pipelines and distributed inference | Pending |
-| Sep 22 | WRITER — [AI Engineer](https://jobs.ashbyhq.com/writer/40f9e2b4-3284-4a20-b45d-0f5e5dd9108d) | $198k–$259k | 5+ years shipping production AI/ML; narrow margin over pay target | Pending |
+| Oct 5 | Glean — [Senior/Staff Applied Scientist](https://job-boards.greenhouse.io/gleanwork/jobs/4740092005) | $180k–$330k | Master's plus 5+ years or PhD plus 3+; degree unverified | [Mapped; several partial proofs](glean-applied-scientist.md) |
+| Sep 30 | OpenAI — [Data Scientist, B2B Strategy & Intelligence](https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5) | $347k–$510k | Senior-level B2B/GTM analytics and executive decisions | [Mapped; history unverified](openai-b2b-data-scientist.md) |
+| Oct 14 | Cohere — [MTS, Post-Training Data Infrastructure](https://jobs.ashbyhq.com/cohere/eef82766-7e31-430f-a102-bc33a5022597) | $205k–$380k in CA/NY/WA; $175k–$325k elsewhere | Large-scale ML data pipelines and distributed inference | [Mapped; scale history unverified](cohere-post-training-data.md) |
+| Sep 22 | WRITER — [AI Engineer](https://jobs.ashbyhq.com/writer/40f9e2b4-3284-4a20-b45d-0f5e5dd9108d) | $198k–$259k | 5+ years shipping production AI/ML; narrow margin over pay target | [Mapped; partial proofs](writer-ai-engineer.md) |
 
 ## Conditional or stretch roles
 
@@ -34,6 +35,7 @@ Date evidence came from employer ATS feeds: [Ashby's public posting API](https:/
 | Sep 28 | Decagon — [Staff SWE, Agent Product](https://jobs.ashbyhq.com/decagon/508a6226-4ee4-4cfa-8a9c-04d48bef81a8) | $200k–$400k | Staff-level product and agent engineering |
 | Oct 5 | Modal — [MTS, Inference Runtime](https://jobs.ashbyhq.com/modal/6195f552-ca6f-4540-b7f6-e7e6054e47ad) | $220k–$300k | Low-level inference/runtime systems |
 | Sep 25 | Replit — [Staff SWE, Agentic Ads](https://jobs.ashbyhq.com/replit/4df82fb0-0bcb-4034-89ce-09e679b00fe7) | $250k–$360k | Staff-level software engineering and ads systems |
+| Sep 29 | OpenAI — [Applied AI Engineer, API Platform](https://jobs.ashbyhq.com/openai/3254f6a7-6353-4a77-beec-f37b832c99ae) | $251k–$278k | Requires **8+ years** hands-on technical experience and customer-facing production leadership |
 | Oct 13 | Replit — [Data Scientist, Growth](https://jobs.ashbyhq.com/replit/1066b974-3cd8-42cf-a11c-a4217c06f70f) | $210k–$327k | Posting requires **6+ years** in data science, including significant growth or experimentation work; user reports about 5 years total |
 | Sep 25 | Glean — [MLE, Search Quality](https://job-boards.greenhouse.io/gleanwork/jobs/4738120005) | $140k–$265k | Ranking/search experience; only the top of the range meets pay target |
 

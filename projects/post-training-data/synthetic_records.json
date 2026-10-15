@@ -1,0 +1,8 @@
+[
+  {"id":"sft-1","type":"sft","source":"invented-human-label","created_at":"2026-10-01","prompt":"Summarize a synthetic support ticket.","response":"The user cannot sign in."},
+  {"id":"sft-2","type":"sft","source":"invented-human-label","created_at":"2026-10-01","prompt":"Classify a fictional request.","response":"Billing question."},
+  {"id":"pref-1","type":"preference","source":"invented-annotator-pair","created_at":"2026-10-02","prompt":"Explain a fictional charge.","chosen":"The charge is for a monthly plan.","rejected":"I cannot help."},
+  {"id":"pref-2","type":"preference","source":"invented-annotator-pair","created_at":"2026-10-02","prompt":"Answer a fictional policy question.","chosen":"The policy permits one replacement.","rejected":"Unlimited replacements are allowed."},
+  {"id":"rl-1","type":"rl","source":"invented-rollout","created_at":"2026-10-03","prompt":"Choose a support tool.","response":"search_policy","reward":0.8},
+  {"id":"rl-2","type":"rl","source":"invented-rollout","created_at":"2026-10-03","prompt":"Choose a support tool.","response":"refund_customer","reward":-0.2}
+]
