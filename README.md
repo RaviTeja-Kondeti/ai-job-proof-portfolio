@@ -11,6 +11,7 @@ This repository turns job-post statements into small, inspectable projects. Most
 - [Baseten — Post-Training Applied Researcher](https://jobs.ashbyhq.com/baseten/2d18b2aa-b6fc-4f1c-8936-33b03255a090): [line-by-line evidence map](job-maps/baseten-post-training-applied-researcher.md).
 - [Sierra — Software Engineer, Agent, Tech/Media/Telecom](https://jobs.ashbyhq.com/sierra/fd5df98a-e2c8-4d47-a803-daee5cccb36f): [line-by-line evidence map](job-maps/sierra-agent-tmt.md).
 - [Handshake AI — Member of Technical Staff, AI Engineering](https://jobs.ashbyhq.com/handshake/08651bf1-c977-49d4-9a82-e8a770bb9970): [line-by-line evidence map](job-maps/handshake-ai-engineering.md).
+- [Handshake AI — Member of Technical Staff, Post-Training](https://jobs.ashbyhq.com/handshake/5fd7dcf2-d2a2-4d82-bc8a-82d701768b43): [line-by-line evidence map](job-maps/handshake-post-training.md).
 - [OpenAI — Data Scientist, B2B Strategy & Intelligence](https://jobs.ashbyhq.com/openai/756d8c20-649a-47f2-8012-553b5f6cb0c5): [line-by-line evidence map](job-maps/openai-b2b-data-scientist.md).
 - [Abridge — Software Engineer, Generative AI](https://jobs.ashbyhq.com/abridge/897709b2-e03d-4574-8611-5cfd669adde9): [line-by-line evidence map](job-maps/abridge-genai.md).
 - [Anthropic — ML/Research Engineer, Safeguards](https://job-boards.greenhouse.io/anthropic/jobs/4949336008): [line-by-line evidence map](job-maps/anthropic-safeguards.md).
